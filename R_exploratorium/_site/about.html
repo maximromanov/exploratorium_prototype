@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>About This Website</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Exploratorium (Prototype)</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    About
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    More
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Heading 1</li>
+    <li>
+      <a href="page_a.html">Page A</a>
+    </li>
+    <li>
+      <a href="page_b.html">Page B</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Heading 2</li>
+    <li>
+      <a href="page_c.html">Page C</a>
+    </li>
+    <li>
+      <a href="page_d.html">Page D</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://alraqmiyyat.github.io/about/">
+    <span class="fa fa-question fa-lg"></span>
+     
+    About
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">About This Website</h1>
+
+</div>
+
+
+<p><strong>NB</strong> to re-generate the site, run <code>R -e 'library(&quot;rmarkdown&quot;);library(&quot;knitr&quot;);rmarkdown::render_site()'</code> (from the folder!)</p>
+<p>This is a prototype of an exploratorium for biographical data from Arabic biographical collections. There is a series of valuable materials online that have been (or will be) consulted for the development of the following template, which include the following:</p>
+<ol style="list-style-type: decimal">
+<li><a href="https://cpsievert.github.io/plotly_book/">Plotly Book[down]</a></li>
+<li><a href="http://rmarkdown.rstudio.com/html_document_format.html#overview">Rmarkdown Documentation (html)</a></li>
+<li><a href="http://rmarkdown.rstudio.com/rmarkdown_websites.html">Rmarkdown Documentation (website building)</a></li>
+<li><a href="http://www.coppelia.io/blog/">Coppelia Blog</a> has some interesting things on R &gt; D3 (actually, the library <code>R2D3</code>)</li>
+<li><a href="http://dataviz.tools/">A curated guide to the best tools, resources and technologies for data visualization</a></li>
+</ol>
+<div id="r-things" class="section level1">
+<h1>R-things</h1>
+<ol style="list-style-type: decimal">
+<li>Network analysis in <code>R</code>: perhaps I could identify communities and then push data through <code>networkD3</code>?</li>
+<li>…</li>
+</ol>
+<div id="notes-for-further-development" class="section level2">
+<h2>Notes for further development</h2>
+<ol style="list-style-type: decimal">
+<li>Experiment with other visualizations and graphs</li>
+<li>Package code into functions for easier reuse.</li>
+</ol>
+</div>
+<div id="other-types-of-graphs-and-possible-usage" class="section level2">
+<h2>Other types of graphs and possible usage</h2>
+<ol style="list-style-type: decimal">
+<li><code>Dendrograms</code> can be used to visualize the classifications of names, toponyms and other entities.</li>
+<li>Bar charts can supplement the map, to reinforce spatial distribution</li>
+</ol>
+</div>
+<div id="required-data" class="section level2">
+<h2>Required data</h2>
+<ol style="list-style-type: decimal">
+<li><em>Nisbaŧ</em> data table (build from Cohen, Schatzmayer and Petry)</li>
+<li>Gazetteer data need to be supplemented by entries on regions (develop the logic of processing regions &gt; dynamic assignment of coordinates of the dominant urban center)</li>
+<li>What else?</li>
+</ol>
+</div>
+</div>
+<div id="data-model-description" class="section level1">
+<h1>Data model — Description</h1>
+<p>Initial data format should be as follows: <code>id &gt; item &gt; type</code>, which includes the following types:</p>
+<ul>
+<li><strong>onom</strong> :: onomastic data (names)</li>
+<li><strong>onto</strong> :: toponymic onomastic data (toponymic names, goes into <code>onom</code> and <code>topo</code>)</li>
+<li><strong>topo</strong> :: toponymic data (toponyms)</li>
+</ul>
+<p><code>date</code> should be replace with the following:</p>
+<ul>
+<li><strong>yebi</strong> :: year of birth</li>
+<li><strong>yede</strong> :: year of death (this one will help to cound individuals, as there are often many dates in a biography)</li>
+<li><strong>yemi</strong> :: years of other kind (not categorized)</li>
+</ul>
+<p><code>misc</code> layer to accommodate other random things.</p>
+<p><strong>Enriching Layers</strong>: In <code>R</code>, the initial data is to be split into subvariables (<code>onom</code>, <code>topo</code>, <code>date</code>, <code>dade</code>, <code>misc</code>) and expanded with <code>enriching layers</code> that will provide additional analytical data, such as transliteration, translation, categorization (metacategories, synonyms, etc), coordinates, etc.</p>
+<p><strong>Network layers</strong>: The edges should be pre-generated, and then either enriched in <code>R</code> or during the pre-generation stage.</p>
+<pre><code>
+# Some random notes
+
+## Projections in `plotly`
+</code></pre>
+<p>projType: ‘equirectangular’, ‘mercator’, ‘orthographic’, ‘natural earth’, ‘kavrayskiy7’,‘miller’, ‘robinson’, ‘eckert4’, ‘azimuthal equal area’, ‘azimuthal equidistant’, ‘conic equal area’, ‘conic conformal’, ‘conic equidistant’, ‘gnomonic’, ‘stereographic’, ‘mollweide’, ‘hammer’, ‘transverse mercator’</p>
+<p>```</p>
+</div>
+
+<p>Copyright &copy; 2016 Maxim Romanov</p>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

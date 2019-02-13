@@ -1,0 +1,392 @@
+---
+title: 'Exploratorium Prototype: Template Page'
+---
+
+This page represents a prototype template for dynamic (automated) data visualization.
+
+``` {r echo = FALSE, message = FALSE, warning = F}
+
+# Preparing data
+
+## Loading libraries
+
+library(ggplot2)
+library(plotly)
+library(plyr)
+library(gtools) # generates permutations
+```
+
+
+``` {r echo = FALSE, message = FALSE, warning = F}
+
+# Loading and processing the data
+
+#0748Dhahabi.TarikhIslam.JK007088-ara1.dataOnom
+#0748Dhahabi.TarikhIslam.JK007088-ara1.dataTopo
+#0748Dhahabi.TarikhIslam.JK007088-ara1.dataYear
+
+path = "/Users/romanov/Documents/c.GitProjects/exploratorium/"
+
+onom=read.csv(paste0(path,"/data/0748Dhahabi.TarikhIslam.JK007088-ara1.dataOnom"),stringsAsFactors=F,header=F,sep='\t')
+colnames(onom) <- c("id", "item", "type", "meta", "drop")
+onom$drop <- NULL
+onom=onom[ with(onom, grepl("#CAT#onom",type)),]
+
+topo=read.csv(paste0(path,"/data/0748Dhahabi.TarikhIslam.JK007088-ara1.dataTopo"),stringsAsFactors=F,header=F,sep='\t')
+colnames(topo) <- c("id", "item", "type", "lat", "lon")
+
+year=read.csv(paste0(path,"/data/0748Dhahabi.TarikhIslam.JK007088-ara1.dataYear"),stringsAsFactors=F,header=F,sep='\t')
+colnames(year) <- c("id", "item", "type")
+
+geoNW=read.csv(paste0(path,"/data/0748Dhahabi.TarikhIslam.JK007088-ara1.dataGeNW"),stringsAsFactors=F,header=F,sep='\t')
+colnames(geoNW) <- c("id", "item1", "type1", "lat1", "lon1", "item2", "type2", "lat2", "lon2")
+
+netwo=read.csv(paste0(path,"/data/0748Dhahabi.TarikhIslam.JK007088-ara1.dataNETW"),stringsAsFactors=F,header=F,sep='\t')
+colnames(netwo) <- c("id", "item1", "type1", "item2", "type2")
+
+rawData=read.csv(paste0(path,"/data/0748Dhahabi.TarikhIslam.JK007088-ara1.dataRaw1"),stringsAsFactors=F,header=F,sep='\t')
+colnames(rawData) <- c("id", "item", "type")
+
+periodStep = 20
+
+year$item = round_any(year$item, periodStep, f=ceiling)
+PeopleChrono_All = data.frame(table(year$item))
+
+ah_low  = min(year$item)
+ah_high = max(year$item)
+
+periods = seq(ah_low, ah_high, by=periodStep)
+```
+
+``` {r echo = FALSE, message = FALSE, warning = F}
+
+## Subsetting and formatting data
+
+# filter by value
+val = 'البغدادي'
+val = 'الواعظ'
+#val = 'المالكي'
+
+onom_temp = onom[onom$item == val,]
+
+year_temp = year[year$id %in% onom_temp$id,]
+chrono = c(year_temp$item,periods)
+PeopleChrono_Sub = data.frame(table(chrono))
+PeopleChrono_Sub$Freq = PeopleChrono_Sub$Freq-1 # removes dummies from the count
+
+xlabVarAH = seq(0, ah_high, by=100)
+xlabVarCE = as.integer((xlabVarAH-xlabVarAH/33)+622)
+
+```
+
+# Patterns of `r val`
+
+## Space
+
+``` {r echo = FALSE, message = FALSE, warning = F}
+
+# generate points data
+
+topo_temp = topo[topo$id %in% onom_temp$id,]
+topo_points = ddply(topo_temp,.(item,lat,lon),nrow)
+colnames(topo_points) <- c("item", "lat", "lon", "freq")
+topo_points = topo_points[with(topo_points, order(-freq)), ]
+
+# generate network data:
+geoNW_temp = geoNW[geoNW$id %in% onom_temp$id,]
+geoNW_arcs = ddply(geoNW_temp,.(item1,lat1,lon1,item2,lat2,lon2),nrow)
+colnames(geoNW_arcs) <- c("item1", "lat1", "lon1", "item2", "lat2", "lon2", "freq")
+geoNW_arcs = geoNW_arcs[with(geoNW_arcs, order(freq)), ]
+
+## 1. Join vectors into strings: paste(vector, collapse = '\t')
+## 2. Split string into vector: a = strsplit(string, "\t") ; unlist(a) ; apply `as.numeric` to a column to convert to numbers
+## 3. generate permutations
+
+#require(gtools)
+#vec = c("Baghdad", "Dimashq", "Makka")
+#test = permutations(n = length(vec), r = 2, v = vec)
+# n -> size of source vector
+# r -> size of target vector
+# v -> source vector, defaults to 1:n
+# repeats.allowed = FALSE (default)
+
+## 4. arrange alphabetically
+## 5. remove duplicates
+
+### **NB**: Unfortunately, `plot_ly` does not support the varying width nor alpha levels for arcs. I should try to build the network map with `ggplot2` through `plot_ly`---for a sort of dynamic viz; alternatively, I can just generate static images with `ggplot2`, as I had that before. The following things can also be tried:
+
+# 1. The `dev` version of `plot_ly` offers slide-by-slide animation; this is worth trying/testing; this should at least work for the circles below; it may also work with `ggplot2` maps that will include connections (`caching` the map layer is a problem as it takes a while to generate).
+# 2. There was something else I am missing...
+
+
+```
+
+
+``` {r echo = FALSE, message = FALSE, warning = F}
+
+# Boundaries for the Islamic world
+latIW = c(5, 45); lonIW = c(-12, 83)
+
+# Boundaries for the Taʾrīḫ al-islām
+latTI = c(10, 48); lonTI = c(-12, 75)
+
+# Boundaries to use
+latLim = latTI; lonLim = lonTI
+
+# Colors
+waterCol = "grey90"; landCol = "white"
+
+
+p <- plot_geo(data=topo_points, width="auto") %>% # color = ~freq # continuous color based on freq
+  #add_lines(color = I("red"), size = I(2)) %>%
+#   add_segments(
+#     data = group_by(geoNW_arcs),
+#     x = ~lon1, xend = ~lon2,
+#     y = ~lat1, yend = ~lat2,
+#     alpha = 0.75,
+#     size = I(1),
+#     #sizes = c(1, 100), # not supported yet
+#     #colors = c("white", "red"),
+#     color = I("red"),
+#     hoverinfo = "none"
+#   ) %>% 
+  add_markers(
+    color = I("red"),
+    sizes = c(10, 500), 
+    data = topo_points, x = ~lon, y = ~lat,
+    color = ~freq, #colors = c("white", "red"), # this one allows to determine colorscale
+    text = ~paste0(val," - ",item,": ", freq),
+    size = ~freq, hoverinfo = "text", alpha = .75,
+    #showlegend = FALSE, showscale = FALSE
+  ) %>%
+  hide_colorbar() %>% # this one works for hiding coloscale bar!
+  
+  layout(
+    margin = list(l=0, r=0, b=0, t=0, pad=0),
+    showlegend = FALSE,
+    #title = 'Here comes the title',
+    geo = list(
+      
+      resolution = 50,
+      
+      showland = TRUE,
+      showlakes = TRUE,
+      showrivers = TRUE,
+      showocean = TRUE,
+      
+      landcolor = toRGB(landCol),
+      countrycolor = toRGB(landCol),
+      lakecolor = toRGB(waterCol),
+      rivercolor = toRGB(waterCol),
+      oceancolor = toRGB(waterCol),
+      
+      projection = list(type = "mercator"),
+      
+      coastlinewidth = .5,
+      
+      lataxis = list(
+        range = latLim,
+        showgrid = FALSE
+      ),
+      lonaxis = list(
+        range = lonLim,
+        showgrid = FALSE
+      )
+    )
+  )
+
+p
+
+```
+
+## Time
+
+``` {r echo = FALSE, message = FALSE, warning = F}
+
+ahAxis <- list(
+  tickfont = list(color = "black"),
+  showticklabels = TRUE,
+  side = "bottom",
+  title = "Years According to the Islamic Lunar (<i>hijrī</i>) Calendar",
+  range = xlabVarAH
+)
+
+relCol = "orange"
+absCol = "green"
+
+absAxis <- list(
+  tickfont = list(color = absCol),
+  showticklabels = TRUE,
+  side = "left",
+  title = "Absolute frequencies", 
+  titlefont = list(family = "Courier New, monospace", size = 14, color = absCol)
+
+)
+
+relAxis <- list(
+  tickfont = list(color = relCol),
+  overlaying = "y",
+  showticklabels = TRUE,
+  side = "right",
+  title = "Relative frequencies (%)",
+  titlefont = list(family = "Courier New, monospace", size = 14, color = relCol)
+)
+
+plotlyGraph = plot_ly(type="scatter", mode="markers+lines", width="auto") # width="auto" must go here!
+
+plotlyGraph %>%
+  add_trace(y=PeopleChrono_Sub$Freq, x=periods,
+            type="scatter",
+            name=val,
+            mode="markers+lines",
+            line = list(color = absCol, width = 2),
+            hoverinfo = 'text',
+            text = ~paste0(
+              '<b>Frequency:</b> ', format(PeopleChrono_Sub$Freq, big.mark=",", trim=TRUE, digits=2, scientific=FALSE),
+              '<br>',             
+              '<b>Date:</b>',
+              periods,'AH/', as.integer((periods-periods/33)+622),"CE")) %>%  
+  add_trace(y=(PeopleChrono_Sub$Freq/PeopleChrono_All$Freq)*100, x=periods,
+            type="scatter",
+            name=paste0(val," (%)"),
+            yaxis="y2",
+            mode="markers+lines",
+            line = list(color = relCol, width = 2),
+            hoverinfo = 'text',
+            text = ~paste0(
+              '<b>Percentage:</b> ', format((PeopleChrono_Sub$Freq/PeopleChrono_All$Freq)*100,
+                                           big.mark=",", trim=TRUE, digits=2, scientific=FALSE),
+              '%<br>','<b>Date:</b>', periods,'AH/', as.integer((periods-periods/33)+622),"CE")) %>%
+  layout(
+    xaxis = ahAxis,
+    yaxis = absAxis,
+    yaxis2 = relAxis,
+    hovermode = "x"
+  )  
+
+# ADD: the overall count of people
+# ADD: the overall percentage of people
+
+
+```
+
+## Network of entities
+
+``` {r echo = FALSE, message = FALSE, warning = F}
+# https://christophergandrud.github.io/networkD3/
+library(networkD3)
+
+filterRE = "#CAT#(topo|onom|onto)"
+
+# filter categorical NW data
+netwo_temp = netwo[netwo$id %in% onom_temp$id,]
+netwo_temp = netwo_temp[ with(netwo_temp, grepl(filterRE,type1)),]
+netwo_temp = netwo_temp[ with(netwo_temp, grepl(filterRE,type2)),]
+netwo_edges = ddply(netwo_temp,.(item1,item2),nrow)
+colnames(netwo_edges)  <- c("source", "target", "edge_freq")
+netwo_edges = netwo_edges[with(netwo_edges, order(source)), ]
+# filter (remove singles)
+netwo_edges = netwo_edges[which(netwo_edges$edge_freq > 0), ]
+#netwo_edges = netwo_edges[which(netwo_edges$source != val), ]
+#netwo_edges = netwo_edges[which(netwo_edges$target != val), ]
+
+# filter out nodes!
+nodes_to_keep = c(netwo_edges$source, netwo_edges$target)
+
+# get nodes > adapt edges for networkD3
+nodes_temp = rawData[rawData$id %in% onom_temp$id,]
+nodes_temp = nodes_temp[nodes_temp$item %in% nodes_to_keep,]
+
+nodes_temp = nodes_temp[ with(nodes_temp, grepl(filterRE,type)),]
+nodes_temp = subset(nodes_temp, select=-c(id))
+nodes_temp = ddply(nodes_temp,.(item,type),nrow)
+colnames(nodes_temp)  <- c("item", "type", "node_freq")
+nodes_temp = nodes_temp[with(nodes_temp, order(item)), ]
+ids = seq(0, length(nodes_temp$item)-1, 1)
+nodes_temp$ids <- unlist(ids)
+# merge # total <- merge(data frameA,data frameB,by=c("ID","Country"))
+colnames(netwo_edges)  <- c("merge", "target", "edge_freq")
+colnames(nodes_temp)  <- c("merge", "type", "node_freq", "from")
+netwo_edges <- merge(netwo_edges,nodes_temp,by="merge")
+colnames(netwo_edges)  <- c("source", "merge", "edge_freq", "type", "node_freq", "from")
+colnames(nodes_temp)  <- c("merge", "type", "node_freq", "to")
+netwo_edges <- merge(netwo_edges,nodes_temp,by="merge")
+netwo_edges = subset(netwo_edges, select=c(from, to, edge_freq))
+netwo_edges = netwo_edges[with(netwo_edges, order(from)), ]
+netwo_edges$edge_freq <- netwo_edges$edge_freq*netwo_edges$edge_freq
+```
+
+``` {r echo = FALSE, message = FALSE, warning = F}
+
+MyClickScript <- 'd3.select(this).select("circle").transition().duration(750).attr("r", 30)'
+
+#MyClickScript <- 'alert("You clicked " + d.name + " which is in row " + (d.index + 1) + " of your original R data frame");'
+
+
+forceNetwork(Links = netwo_edges, Nodes = nodes_temp, Source = "from",
+             Target = "to", Value = "edge_freq", NodeID = "merge",
+             height = 600, width = 900, fontSize=20, linkDistance = 200,
+             Nodesize = 'node_freq', #radiusCalculation = "d.nodesize",
+             radiusCalculation = " Math.sqrt(d.nodesize)+6",
+             Group = "type", opacity = 1, zoom = TRUE, legend = T,
+             #bounded = T, # this one keeps the network in boundaries
+             opacityNoHover = 0.25,
+             clickAction = MyClickScript)
+
+```
+
+## Matrix of entities (alternative to network)
+
+``` {r echo = FALSE, message = FALSE, warning = F}
+
+library(reshape2)
+
+#filterRE = "#CAT#(topo|onom|onto)"
+
+# filter nodes (keep only those with higher freq)
+
+# get nodes > adapt edges for networkD3
+nodes_temp = rawData[rawData$id %in% onom_temp$id,]
+nodes_temp = nodes_temp[nodes_temp$item %in% nodes_to_keep,]
+nodes_temp = nodes_temp[ with(nodes_temp, grepl(filterRE,type)),]
+nodes_temp = subset(nodes_temp, select=-c(id,type))
+nodes_temp = ddply(nodes_temp,.(item),nrow)
+colnames(nodes_temp)  <- c("item", "node_freq")
+nodes_temp = nodes_temp[which(nodes_temp$node_freq > 3), ]
+
+# edges
+
+netwo_temp = netwo[netwo$id %in% onom_temp$id,]
+
+netwo_temp = netwo_temp[netwo_temp$item1 %in% nodes_temp$item,]
+netwo_temp = netwo_temp[netwo_temp$item2 %in% nodes_temp$item,]
+
+netwo_temp = netwo_temp[ with(netwo_temp, grepl(filterRE,type1)),]
+netwo_temp = netwo_temp[ with(netwo_temp, grepl(filterRE,type2)),]
+netwo_edges = ddply(netwo_temp,.(item1,item2),nrow)
+colnames(netwo_edges)  <- c("from", "to", "freq")
+netwo_edges = netwo_edges[with(netwo_edges, order(freq)), ]
+# filter (remove singles)
+netwo_edges = netwo_edges[which(netwo_edges$freq > 0), ]
+
+matrix_of_names = acast(netwo_edges, from~to, value.var="freq")
+#matrix_of_names[is.na(matrix_of_names)] <- 0
+#matrix_of_names[,0])
+#matrix_of_names[0,]
+#length(colnames(matrix_of_names))
+#length(rownames(matrix_of_names))
+
+plot_ly(x=rownames(matrix_of_names), y=colnames(matrix_of_names),
+        z = matrix_of_names, colors = colorRamp(c("orange", "black")),
+        type = "heatmap", width="auto")
+
+```
+
+# Other
+
+Notes: Can I use a dendrogram like [this](https://plot.ly/ggplot2/ggdendro-dendrograms/) for something?
+
+1. Level of connections among regions over time?
+2. Different social groups in time and space and their interconnectedness?
+
+

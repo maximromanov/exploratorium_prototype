@@ -1,0 +1,75 @@
+---
+title: "About This Website"
+
+---
+
+**NB** to re-generate the site, run `R -e 'library("rmarkdown");library("knitr");rmarkdown::render_site()'` (from the folder!)
+
+This is a prototype of an exploratorium for biographical data from Arabic biographical collections. There is a series of valuable materials online that have been (or will be) consulted for the development of the following template, which include the following:
+
+1. [Plotly Book[down]](https://cpsievert.github.io/plotly_book/)
+2. [Rmarkdown Documentation (html)](http://rmarkdown.rstudio.com/html_document_format.html#overview)
+3. [Rmarkdown Documentation (website building)](http://rmarkdown.rstudio.com/rmarkdown_websites.html)
+4. [Coppelia Blog](http://www.coppelia.io/blog/) has some interesting things on R > D3 (actually, the library `R2D3`)
+5. [A curated guide to the best tools, resources and technologies for data visualization](http://dataviz.tools/)
+
+# R-things
+
+1. Network analysis in `R`: perhaps I could identify communities and then push data through `networkD3`?
+2. ...
+
+## Notes for further development
+
+1. Experiment with other visualizations and graphs
+2. Package code into functions for easier reuse.
+
+
+## Other types of graphs and possible usage
+
+1. `Dendrograms` can be used to visualize the classifications of names, toponyms and other entities.
+2. Bar charts can supplement the map, to reinforce spatial distribution
+
+## Required data
+
+1. *Nisbaŧ* data table (build from Cohen, Schatzmayer and Petry)
+2. Gazetteer data need to be supplemented by entries on regions (develop the logic of processing regions > dynamic assignment of coordinates of the dominant urban center)
+3. What else?
+
+# Data model --- Description
+
+Initial data format should be as follows: `id > item > type`, which includes the following types:
+
+- __onom__ :: onomastic data (names)
+- __onto__ :: toponymic onomastic data (toponymic names, goes into `onom` and `topo`)
+- __topo__ :: toponymic data (toponyms)
+
+`date` should be replace with the following:
+
+- __yebi__ :: year of birth
+- __yede__ :: year of death (this one will help to cound individuals, as there are often many dates in a biography)
+- __yemi__ :: years of other kind (not categorized)
+
+`misc` layer to accommodate other random things.
+ 
+**Enriching Layers**: In `R`, the initial data is to be split into subvariables (`onom`, `topo`, `date`, `dade`, `misc`) and expanded with  `enriching layers` that will provide additional analytical data, such as transliteration, translation, categorization (metacategories, synonyms, etc), coordinates, etc.
+
+**Network layers**: The edges should be pre-generated, and then either enriched in `R` or during the pre-generation stage.
+
+```
+
+# Some random notes
+
+## Projections in `plotly`
+
+```
+projType: 'equirectangular', 'mercator',
+          'orthographic', 'natural earth',
+          'kavrayskiy7','miller',
+          'robinson', 'eckert4',
+          'azimuthal equal area', 'azimuthal equidistant',
+          'conic equal area', 'conic conformal',
+          'conic equidistant', 'gnomonic',
+          'stereographic', 'mollweide',
+          'hammer', 'transverse mercator'
+
+```

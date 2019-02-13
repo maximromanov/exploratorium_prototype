@@ -1,0 +1,1019 @@
+ITEM	URI	TRANSLIT	CLASSIFIERS	KW	TYPE	TOP_URI	COMMENT
+البغدادي	البغدادي	baġdādī	topo		nisbaŧ	BAGHDAD_443E333N_S	
+الشيخ	الشيخ	šayḫ	general, status, religious		nisbaŧ		
+الفقيه	الفقيه	faqīh	law, knowledge, religious		nisbaŧ		
+البصري	البصري	baṣrī	topo		nisbaŧ	BASRA_477E304N_S	
+الدمشقي	الدمشقي	dimašqī	topo		nisbaŧ	DIMASHQ_363E335N_S	
+المصري	المصري	miṣrī	topo		nisbaŧ	Egypt	
+القاضي	القاضي	qāḍī	law, position, religious, ?civilian		nisbaŧ		
+الكوفي	الكوفي	kūfī	topo		nisbaŧ	KUFA_443E320N_S	
+المولي	المولي	mawlá	client, nonarab, tribal		nisbaŧ		
+المقرء	المقرء	muqriʾ	quran, knowledge, religious		nisbaŧ		
+الامام	الامام	imām	general, status, position, religious, mosque		nisbaŧ		
+الاصبهاني	الاصبهاني	iṣbahānī	topo		nisbaŧ	ISBAHAN_516E326N_S	
+الصاحب	الصاحب				nisbaŧ		$sahib #noID
+الحافظ	الحافظ	ḥāfiẓ	hadith, knowledge, status, religious		nisbaŧ		
+النيسابوري	النيسابوري	naysābūrī	topo		nisbaŧ	NAYSABUR_587E361N_S	
+الشافعي	الشافعي	šāfiʿī	law, faction, faction, religious		nisbaŧ		
+الصالح	الصالح	ṣāliḥ	piety, status, religious		nisbaŧ		
+الزاهد	الزاهد	zāhid	piety, status, religious		nisbaŧ		
+الانصاري	الانصاري	anṣārī	tribal, prophet		nisbaŧ		
+الامير	الامير	amīr	general, position, military		nisbaŧ		
+المدني	المدني	madanī	topo		nisbaŧ	MADINA_396E244N_S	
+الصوفي	الصوفي	ṣūfī	piety, status, knowledge, faction, religious		nisbaŧ		
+القرطبي	القرطبي	qurṭubī	topo		nisbaŧ	QURTUBA_047W379N_S	
+القرشي	القرشي	qurašī	arab, tribal, prophet		nisbaŧ		
+الاندلسي	الاندلسي	andalusī	topo		nisbaŧ	Andalus	
+الكاتب	الكاتب	kātib	general, position, administrative		nisbaŧ		
+الولي	الولي						$waliya #verb #position %?
+الشاعر	الشاعر	šāʿir	language, literature, knowledge, civilian		nisbaŧ		
+المحدث	المحدث	muḥaddiṯ	hadith, knowledge, religious		nisbaŧ		
+الحنفي	الحنفي	ḥanafī	law, faction, knowledge, religious, earlyTribal		nisbaŧ		also, early tribal
+الاديب	الاديب	adīb	language, literature, knowledge, civilian		nisbaŧ		
+الخطيب	الخطيب	ḫaṭīb	preaching, position, religious, mosque		nisbaŧ		
+التميمي	التميمي	tamīmī	arab, tribal		nisbaŧ		
+الحنبلي	الحنبلي	ḥanbalī	law, faction, knowledge, religious		nisbaŧ		
+الثقة	الثقة	ṯiqaŧ	hadith, status, religious		nisbaŧ		
+المالكي	المالكي	mālikī	law, faction, knowledge, religious		nisbaŧ		
+الواسطي	الواسطي	wāsiṭī	topo		nisbaŧ	WASIT_463E321N_S	
+الهاشمي	الهاشمي	hāšimī	arab, tribal, prophet		nisbaŧ		
+الهروي	الهروي	harawī	topo		nisbaŧ	HARA_621E343N_S	
+المروزي	المروزي	marwazī	topo		nisbaŧ	MARW_621E376N_S	
+الازدي	الازدي	azdī	arab, tribal		nisbaŧ		
+النحوي	النحوي	naḥwī	language, knowledge, civilian		nisbaŧ		
+القبيلةبنوفلان	القبيلةبنوفلان						$qabilatbanifulan #tribal
+العالم	العالم	ʿālim	general, knowledge, status, religious		nisbaŧ		
+الواعظ	الواعظ	wāʿiẓ	preaching, knowledge, position, religious		nisbaŧ		
+العبيد	العبيد				nisbaŧ		$`abid #plural
+الرءيس	الرءيس	raʾīs	general, status, position		nisbaŧ		
+البخاري	البخاري	buḫārī	topo		nisbaŧ	BUKHARA_644E398N_S	
+البزاز	البزاز	bazzāz	textiles, occupation, civilian		nisbaŧ		cloth in general
+المقدسي	المقدسي	muqaddasī	topo		nisbaŧ	BAYTMAQDIS_352E317N_S	
+السلمي	السلمي	sulamī	arab, tribal		nisbaŧ		?arab
+الموصلي	الموصلي	mawṣilī	topo		nisbaŧ	MAWSIL_431E363N_S	
+الاموي	الاموي	umawī	arab, tribal		nisbaŧ		
+الضرير	الضرير	ḍarīr	eyes, blindness, physical		nisbaŧ		
+العلامة	العلامة	ʿallāmaŧ	general, status, religious		nisbaŧ		
+التاجر	التاجر	tājir	trade, occupation, civilian		nisbaŧ		
+السلطان	السلطان	sulṭān	general, status, military		nisbaŧ		
+العابد	العابد	ʿābid	piety, status, religious		nisbaŧ		
+الاسدي	الاسدي	asadī	arab, tribal		nisbaŧ		
+الرازي	الرازي	rāzī	topo		nisbaŧ	RAYY_515E356N_S	
+القرا	القرا						$qurra' #plural #religious #knowledge @quran
+المكي	المكي	makkī	topo		nisbaŧ	MAKKA_398E213N_S	
+الوزير	الوزير	wazīr	general, position, administrative		nisbaŧ		
+القضاة	القضاة						$qudat #religious #position #status
+الهمذاني	الهمذاني	hamaḏānī	topo		nisbaŧ	HAMADHAN_485E347N_S	
+المءدب	المءدب	muʾaddib	language, literature, knowledge, civilian		nisbaŧ		
+الاشبيلي	الاشبيلي	išbīlī	topo		nisbaŧ	ISHBILIYYA_059W374N_S	
+الحمصي	الحمصي	ḥimṣī	topo		nisbaŧ	HIMS_367E347N_S	
+القري	القري				nisbaŧ		$qri #noID
+الحلبي	الحلبي	ḥalabī	topo		nisbaŧ	HALAB_371E361N_S	
+الاءمة	الاءمة						$a'imma #plural
+الثقفي	الثقفي	ṯaqafī	arab, tribal		nisbaŧ		
+الهمداني	الهمداني	hamdānī	arab, tribal		nisbaŧ		
+الحراني	الحراني	ḥarrānī	topo		nisbaŧ	HARRAN_390E368N_S	
+العلوي	العلوي	ʿalawī	ancestral, status, shia, ?faction		nisbaŧ		$`alawi #ancestoral #status #religious #faction @shiCa #review
+العباسي	العباسي	ʿabbāsī	ancestral, status		nisbaŧ		$`abbasi #ancestoral #review
+العطار	العطار	ʿaṭṭār	chemistry, occupation, civilian		nisbaŧ		$`attar #trade #civilian @chem
+الاسكندراني	الاسكندراني	iskandarānī	topo		nisbaŧ	ISKANDARIYYA_299E311N_S	$iskandarani #toponymic
+القيسي	القيسي	qaysī	arab, tribal		nisbaŧ		$qaysi #tribal @arab
+الابيه	الابيه						$abihi #family
+الشريف	الشريف	šarīf	ancestral, status, prophet				$sharif #status #religious #ancestoral @prophet
+الابوه	الابوه						$abuhu #family
+الشيباني	الشيباني	šaybānī	arab, tribal				$shaybani #tribal
+اللخمي	اللخمي	laḫmī	arab, tribal				$lakhmi #tribal
+الصالحي	الصالحي	ṣāliḥī	topo			DIMASHQ_363E335N_S	$salihi #toponymic %quarterDimashq
+الامراء	الامراء						$umara' #plural #review
+المخزومي	المخزومي	maḫzūmī	arab, tribal				$makhzumi #tribal %arab
+الجليل	الجليل						$jalil #noID #qualifier
+التيمي	التيمي	taymī	arab, tribal				$taymi #tribal %arab
+الجرجاني	الجرجاني	jurjānī	topo			JURJAN_549E373N_R	
+الوراق	الوراق	warrāq	paper, books, occupation, civilian				$warraq #trade #civilian @paper @books
+العارف	العارف	ʿārif	piety, status, religious				$`arif #religious #status @piety
+المءذن	المءذن	muʾaḏḏin	general, position, religious, mosque				$m'adhdhin #religious #position @mosque
+العلماء	العلماء						$`ulama' #plural #status #religious @general
+العربي	العربي						$`arabi #unclear
+الحربي	الحربي	ḥarbī	topo			BAGHDAD_443E333N_S	%quarterBaghdad
+البلخي	البلخي	balḫī	topo			BALKH_668E367N_S	
+الاصحاب	الاصحاب						$ashab #plural
+البارع	البارع						$bari` #noID #qualifier
+الازجي	الازجي	azajī	topo			BAGHDAD_443E333N_S	$azaji #toponymic
+الفارسي	الفارسي	fārisī	topo			Faris	$farisi #toponymic #ethnic @nonarab
+المقريء	المقريء	muqriʾ	quran, knowledge, religious				$muqri' #religious #knowledge @quran
+العربية	العربية						$`arabiyya #secondary
+الشيوخ	الشيوخ						$shuyukh #plural #relig #status
+المفتي	المفتي	muftī	law, knowledge, position, religious				$mufti #religious #knowledge #position @law
+الكندي	الكندي	kindī	arab, tribal				$kindi #tribal
+المدرس	المدرس	mudarris	general, position, religious, madrasa, waqf				$mudarris #religious #position @madrasa
+الحاكم	الحاكم						$hakim #unclear
+القراء	القراء						$qurra' #plural #religious #knowledge @quran
+الخياط	الخياط	ḫayyāṭ	textiles, occupation, civilian				$khayyat #trade #civilian @textile %tailor
+الورع	الورع	wariʿ	piety, status, religious				$wari` #religious #status @piety
+المغربي	المغربي	maġribī	topo			Maghrib	$maghribi #toponymic
+الصدوق	الصدوق	sadūq	piety, status, religious				$saduq #religious #status @piety
+البلنسي	البلنسي	balansī	topo			BALANSIYYA_004W394N_R	$balansi #toponymic
+القطان	القطان	qaṭṭān	textiles, occupation, civilian, cotton				$qattan #trade #civilian @textile @cotton
+المصنف	المصنف						$musannif #knowledge #religious @author
+الاعيان	الاعيان						$a`yian #plural
+العبدي	العبدي	ʿabdī	arab, tribal				$`abdi #tribal
+الحضرمي	الحضرمي	ḥaḍramī	topo			HADRAMAWT_488E156N_R	$hadrami #toponymic
+الحسيني	الحسيني	ḥusaynī	ancestral, status, shia, ?faction				$husayni #ancestoral #status #religious #faction @shiCa
+العباد	العباد						$`ubbad #plural
+السعدي	السعدي	saʿdī	arab, tribal				$sa`di #tribal
+الخزاعي	الخزاعي	ḫuzāʿī	arab, tribal				$khuza`i #tribal %notInAnsab
+التجيبي	التجيبي	tujibī	arab, tribal				$tajibi #tribal
+الاستاذ	الاستاذ						$ustadh #status #religious #civilian #review
+المءمنين	المءمنين						$mu'minin #plural #review
+الحريمي	الحريمي	ḥarīmī	arab, tribal				$harimi #tribal
+الطوسي	الطوسي	ṭūsī	topo			TUS_594E364N_S	$tusi #toponymic
+الزهري	الزهري	zuhrī	arab, tribal				$zuhri #tribal
+اللغوي	اللغوي	luġawī	language, knowledge, civilian				$lughawi #knowledge #civilian @lang
+الصوفية	الصوفية						$sufiyya #plural
+الصفار	الصفار	ṣaffār	metals, occupation, civilian, copper				$saffar #trade #civilian @metal @copper
+الشامي	الشامي	šāmī	topo			Sham	$shami #toponymic
+القزويني	القزويني	qazwīnī	topo			QAZWIN_500E362N_S	$qazwini #toponymic
+الضبي	الضبي	ḍabbī	arab, tribal				$dabbi #tribal
+الخراساني	الخراساني	ḫurāsānī	topo			Khurasan	$khurasani #toponymic
+الجده	الجده						$jadduhu #family
+الطبيب	الطبيب	ṭabīb	medicine, knowledge, occupation, position, civilian				$tabib #knowledge #position #trade #civilian @medicine
+الدقاق	الدقاق	daqqāq	foods, occupation, civilian				$daqqaq #trade #civilian @food %flour
+العدوي	العدوي	ʿadwī	arab, tribal				$`adwi #tribal
+السبط	السبط						$sibt #family
+البجلي	البجلي	bajalī	?doctrines, ?faction, ?religious, ?shia, arab, tribal				$bajali #tribal
+المليح	المليح						$malih #noID #qualifier
+الرسول	الرسول		prophet				Unclear, may refer to envoys
+الباهلي	الباهلي	bāhilī	arab, tribal				$bahili #tribal
+الجوهري	الجوهري	jawharī	jewelry, occupation, civilian				$jawhari #trade #civilian @jewelry
+الطاءي	الطاءي	ṭāʾī	arab, tribal				$ta'i #tribal @arab
+الشعراء	الشعراء						$shu`ara' #plural #knowledge #civilian @lang @literature
+الجد	الجد		family, status				?
+الحموي	الحموي	ḥamawī	topo			HAMA_367E351N_S	$hamawi #toponymic
+الكناني	الكناني	kinānī	arab, tribal				$kinani #tribal
+الصيرفي	الصيرفي	ṣayrafī	finances, occupation, civilian				$sayrafi #trade #civilian @finance @broker
+النبيل	النبيل						$nabil #status #review #civilian
+المديني	المديني	madīnī	topo			MADINA_396E244N_S	$madini #toponymic #review #topMulti
+الشيرازي	الشيرازي	šīrāzī	topo			SHIRAZ_525E296N_S	$shirazi #toponymic
+الاسكندري	الاسكندري	iskandarī	topo			ISKANDARIYYA_299E311N_S	$iskandari #secondary %possibleDuplicate
+الرقي	الرقي	raqqī	topo			RAQQA_390E359N_S	$raqqi #toponymic
+المعافري	المعافري	maʿārifī	arab, tribal				$ma`afiri #tribal
+العامري	العامري						$`amiri #ancestoral
+الطبري	الطبري	ṭabarī	topo			TABARISTAN_526E363N_R	$tabari #toponymic
+الشاهد	الشاهد						$shahid #religious #position @law %notary
+الابار	الابار	abbār	metals, wells, occupation, civilian				$abbar #trade #civilian @metal %needles %shatzWelldigger %cohenNeedler #review
+العجلي	العجلي	ʿijlī	arab, tribal				$`ijli #tribal
+الربعي	الربعي	rabaʿī	arab, tribal				$raba`i #tribal
+الخليفة	الخليفة						$khalifa #status #religious @social
+التركي	التركي						$turki #ethnic #toponymic
+المتكلم	المتكلم	mutakallim	doctrinal, knowledge, religious				$mutakallim #religious #knowledge @theology
+المري	المري					MARIYYA_025W368N_S	$murri/marri #tribal @arab #toponymic
+الطويل	الطويل	ṭawīl	appearance, height, physical				$tawil #physical @height
+الصنف	الصنف						$sinf #secondary
+التنوخي	التنوخي	tanūḫī	arab, tribal				$tanukhi #tribal @arab
+الجزري	الجزري	jazarī	topo			Aqur	$jazari #toponymic
+الطليطلي	الطليطلي	ṭulayṭilī	topo			TULAYTILA_040W398N_S	$tulaytili #toponymic
+الشيعي	الشيعي	šīʿī	doctrinal, faction, religious				$shi`i #religious #faction @shiCa
+الملوك	الملوك						$muluk #plural
+المجود	المجود						$mjud #noID
+الغساني	الغساني	ġassānī	arab, tribal				$ghassani #tribal
+الظاهر	الظاهر						$zahir #secondary
+الخزرجي	الخزرجي	ḫazrajī	arab, tribal				$khazraji #tribal
+المرسي	المرسي	mursī	topo			MURSIYA_011W379N_S	$mursi #toponymic
+المفيد	المفيد	mufīd	education, position, religious, madrasa, waqf				$mufid #religious #position @madrasa %simToMuCidButNotPositionBerkey
+العالي	العالي						$`ali #secondary
+السيد	السيد	sayyid	ancestral, status, prophet				$sayyid #status #religious @prophet
+السمرقندي	السمرقندي	samarqandī	topo			SAMARQAND_670E396N_S	$samarqandi #toponymic
+الخولاني	الخولاني	ḫūlānī	topo			Yemen	$khulani #tribal #toponymic
+الانباري	الانباري	anbārī	topo			ANBAR_437E333N_S	$anbari #toponymic
+المشايخ	المشايخ						$masha'ikh #plural #religious #status @general
+الغرناطي	الغرناطي	ġarnāṭī	topo			GHARNATA_035W372N_S	$gharnati #toponymic
+الدينوري	الدينوري	dīnawarī	topo			DINAWAR_474E346N_S	$dinawri #toponymic
+البيع	البيع	bayyiʿ	trade, occupation, civilian				$bayyi` #trade #civilian @merchant %seller #review
+الاخباري	الاخباري	aḫbārī	?general, knowledge, , religious, civilian				$akhbari #knowledge #religious #civilian #review
+الوكيل	الوكيل	wakīl	?finances, position, administrative				$wakil #administrative #position @finance %finAgentForGovernmentPetry
+النبي	النبي						$nabi' @prophet #status #indirect
+الفقهاء	الفقهاء						$fuqaha' #plural #religious #knowledge @law
+الفرضي	الفرضي						$fardi #religious #knowledge @law #review
+الرحال	الرحال	raḥḥāl	hadith, traveller, status, religious				$rahhala #status #religious @hadith @positive
+النقيب	النقيب	naqīb	?general, position, religious, administrative				$naqib #position #religious #military #administrative @shiCa #review #multi
+النسفي	النسفي	nasafī	topo			NASAF_658E388N_S	$nasafi #toponymic
+العقيلي	العقيلي	ʿaqīlī	ancestral, status, ?arab, tribal				$`uqayli/`aqili #ancestoral #tribal
+السراج	السراج	sarrāj	craft, occupation, civilian				$sarraj #trade #civilian @craft %saddles
+الليثي	الليثي	layṯī	arab, tribal				$laythi #tribal @arab
+الزوج	الزوج	zawj	family, status				$zawj #family
+الرومي	الرومي	rūmī	topo			Rum	$rumi #toponymic #ethnic
+الاخت	الاخت		family, status				$ukht #family
+الاشعري	الاشعري	ašʿarī	arab, tribal				$ash`ari #tribal @arab
+الغافقي	الغافقي	ġāfiqī	?arab, tribal				$ghafiqi #tribal
+العادل	العادل	ʿādil	?law, position, religious, civilian				$`adil #religious #position @law %juristicAdjunctPetry 
+الشاطبي	الشاطبي	šāṭibī	topo			SHATIBA_005W389N_S	$shatibi #toponymic
+البزار	البزار	bazzār	foods, occupation, civilian				$bazzar #trade #civilian @food %oilFromSeeds
+الاخيه	الاخيه						$akhihi #family
+الكلبي	الكلبي	kalbī	arab, tribal				$kalbi #tribal @arab
+الفزاري	الفزاري	fazārī	?arab, tribal				$fazari #tribal @arab
+الرءساء	الرءساء						$ru'asa' #plural #review
+الجمال	الجمال	jammāl	animals, camels, beast_of_burden, occupation, civilian				$jammal #trade #civilian @animal %camels #ancestoral #review @transport
+النخعي	النخعي	naḫʿī	?arab, tribal				$nakh`i #tribal
+الجواد	الجواد						$jawwad #noID #qualifier %generous
+البكري	البكري	bakrī					$bakri #ancestoral %status %religious %AbuBakr
+الابنه	الابنه						$ibnuhu #family
+المصنفات	المصنفات						$musannafat #secondary
+الخباز	الخباز	ḫabbāz	foods, occupation, civilian				$khabbaz #trade #civilian @food %breadmaker
+الحميري	الحميري	ḥimyarī	arab, confederation, tribal				$himyari #tribal
+الانطاكي	الانطاكي	anṭākī	topo			ANTAKIYYA_361E361N_S	$antaki #toponymic
+الافريقي	الافريقي	ifrīqī	topo			Maghrib	$ifriqi #toponymic
+الاربلي	الاربلي	irbilī	topo			اربل [NOURI]	$irbili #toponymic
+الكرخي	الكرخي	karḫī	topo			BAGHDAD_443E333N_S	$karkhi #toponymic #topMulti
+القراءة	القراءة						$qira'a #secondary
+الودرس	الودرس						$darrasa #verb
+العكبري	العكبري	ʿukbarī	topo			UKBARA_442E338N_S	$`ukbari #toponymic
+الشروطي	الشروطي						$shuruti #position #administrative @law %contractOfficerPolicemanPetry
+البعلبكي	البعلبكي	baʿlabakkī	topo			BALABAKK_361E340N_S	$ba`labakki #toponymic
+القليل	القليل						$qalil #secondary
+التغلبي	التغلبي	taġlibī	arab, tribal				$taghlibi #tribal @arab
+المزني	المزني	muzanī	arab, tribal				$muzani #tribal @arab
+القزاز	القزاز	qazzāz	textiles, occupation, civilian				$qazzaz #trade #civilian @textile @silk @glass %glazier
+الفهري	الفهري	fihrī	arab, tribal				$fihri #tribal @arab
+السمسار	السمسار	samsār	finances, occupation, civilian				$samsar #trade #civilian @finance @broker
+الداني	الداني	dānī	topo			دانية [NOURI]	$dani #toponymic
+الخادم	الخادم	ḫādim	general, eunich, position, administrative				$khadim #status #administrative #military #position @eunich
+الحاجب	الحاجب	ḥājib	general, position, administrative				$hajib #status #administrative #military #position
+التلميذ	التلميذ						$tilmidh #secondary
+الصاءغ	الصاءغ	ṣāʾiġ	?chemistry, occupation, civilian				$sa'igh #trade #civilian @jewelry @metal
+الشافعية	الشافعية						$shaf`iyya #noID %noNeedToConsider
+السمعاني	السمعاني	samʿānī	topo			Sham	$sam`ani #tribal #toponymic #review
+الحداد	الحداد	ḥaddād	metals, occupation, civilian				$haddad #trade #civilian @metal
+الكردي	الكردي	kurdī	nonarab, tribal			Aqur	$kurdi #ethnic #toponymic
+العسقلاني	العسقلاني	ʿasqalānī	topo			ASQALAN_345E316N_S	$`asqalani #toponymic
+الرملي	الرملي	ramlī	topo			RAMLA_348E319N_S	$ramli #toponymic
+الدني	الدني						$dni %exclude %deformedDunya
+الجهني	الجهني	juhanī	?arab, tribal				$juhani #tribal
+المازني	المازني	māzinī	?arab, tribal				$mazini #tribal
+الكلابي	الكلابي	kilābī	?arab, tribal				$kilabi/kulabi #tribal
+العمري	العمري					BAGHDAD_443E333N_S	$`amri/`umari #tribal #ancestoral #toponymic %quarterBaghdad
+الظاهري	الظاهري	ẓāhirī	law, knowledge, faction, religious				$zahiri #religious #knowledge #faction @law
+الجذامي	الجذامي	juḏāmī	?arab, tribal				$judhami #tribal @arab %Yemen
+المصيصي	المصيصي	miṣṣīṣī	topo			MISSISA_356E369N_S	$missisi #toponymic
+المرادي	المرادي	murādī	?arab, tribal				$muradi #tribal #review %notInAnsab
+الطحان	الطحان	ṭaḥḥān	foods, occupation, civilian				$tahhan #trade #civilian @food %miller
+الحسني	الحسني	ḥasanī	ancestral, status, prophet, shia, religious				$hasani #ancestoral #status #religious @shiCa %Hasanid
+الجمحي	الجمحي	jumaḥī	?arab, tribal				$jumahi #tribal
+الناءب	الناءب	nāʾib	general, position, administrative				$na'ib #administrative #position %viceroyDeputyPetry
+المناظر	المناظر						$munazir #noID %refToMunazara
+العنبري	العنبري	ʿanbarī	?arab, tribal				$`anbari #tribal
+العبدري	العبدري						$`badri #tribal
+الصيدلاني	الصيدلاني	ṣaydalānī	?chemistry, occupation, civilian				$syadalani #trade #civilian @chem
+الزوجة	الزوجة						$zawja #family
+الدلال	الدلال	dallāl	?finances, ocupation, civilian				$dallal #trade #civilian @broker %middleman
+الاستراباذي	الاستراباذي	astarābāḏī	topo			ASTARABADH_544E367N_S	$astarabadhi #toponymic
+المتولي	المتولي						$mutawalli #administrative #religious #position %synNazirQayyim %WaqfAdmin
+المالقي	المالقي	māliqī	topo			MALIQA_044W367N_S	$maliqi #toponymic
+القيرواني	القيرواني	qayrawānī	topo			QAYRAWAN_101E357N_S	$qayrawani #toponymic
+العلوم	العلوم						$`ulum #plural
+العراقي	العراقي	ʿirāqī	topo			Iraq	$`iraqi #toponymic
+العتيق	العتيق						$`atiq #secondary
+القشيري	القشيري	qušayrī	?arab, tribal				$qushayri #tribal
+الفارس	الفارس						$faris #unclear
+البليغ	البليغ						$baligh #noID #qualifier
+الفقير	الفقير	faqīr	piety, status, religious				$faqir #religious #status @piety @sufism
+الدرس	الدرس						$darrasa #verb
+الحارثي	الحارثي	ḥāriṯī	?arab, tribal				$harithi #tribal
+الاخوه	الاخوه						$akhuhu #family
+المحتشم	المحتشم	muḥtašim	piety, status, religious				$muhtashim #religious @piety #status
+الرعيني	الرعيني	ruʿaynī	?arab, tribal				$ru`ayni #tribal
+الجيش	الجيش						$jaysh #plural #military #status #position
+الاسلمي	الاسلمي						$aslami #tribal
+النظامي	النظامي						$nizami #noID %refToNizamiya
+المفسر	المفسر	mufassir	quran, knowledge, religious				$mufassir #religious #knowledge @quran
+المحدثين	المحدثين						$muhaddithin #religious #knowledge @hadith #plural
+الصنعاني	الصنعاني	ṣanʿānī	topo			SANA_442E153N_S	$san`ani #toponymic
+الخلال	الخلال						$khallal #trade #civilian @food %vinegar
+الجيوش	الجيوش						$juyush #military #plural #status #position
+البديع	البديع						$badi` #noID #qualifier
+الانماطي	الانماطي	anmāṭī	textiles, carpets, occupation, civilian				$anmati #trade #civilian @textile %carpets
+الوزر	الوزر						$wazara #verb #status #administrative #position
+المعتزلي	المعتزلي	muʿtazilī	doctrinal, knowledge, religious				$mu`tazili #knowledge #religious #faction @theology
+الفصيح	الفصيح						$fasih #noID #qualifier
+الصدفي	الصدفي					القيروان	$sadafi #toponymic #tribal @arab
+السرخسي	السرخسي	saraḫsī	topo			SARAKHS_611E365N_S	$sarakhsi #toponymic
+الحاج	الحاج						$hajj #religious #status @piety #review
+الجيلاني	الجيلاني	jīlānī	topo			JIL_496E371N_R	$jilani #toponymic
+الجيلي	الجيلي	jīlī	topo			JIL_496E371N_R	$jili #toponymic
+النظامية	النظامية						$nizamiyya #indirect
+المزكي	المزكي						$muzakki #administrative #religious #position @law %investigatorOfWitnesses
+الزبيدي	الزبيدي						$zubaydi #tribal
+الخوارزمي	الخوارزمي					خوارزم	$khwarizmi #toponymic
+الحبشي	الحبشي					الحبشة	$habashi #toponymic #ancestoral #ethnic
+التمار	التمار						$tammar #trade #civilian @food %dates
+التتار	التتار						$tatar #plural
+الفقراء	الفقراء						$fuqara' #plural #status #religious @piety @sufism
+العفيف	العفيف						$`afif #noID #qualifier
+البقال	البقال						$baqqal #trade #civilian @food %groceries %driedFruits
+الاعرج	الاعرج						$a`raj #physical @feet %limping
+الاسفراءيني	الاسفراءيني					اسفرايين	$isfara'ini #toponymic
+المسلم	المسلم						$muslim #secondary
+الفاسي	الفاسي					فاس	$fasi #toponymic
+العاقل	العاقل						$`aqil #noID #qualifier
+الصغير	الصغير						$saghir #noID #qualifier
+الشيعة	الشيعة						$shi`a #plural #faction #religious @shiCa
+السكري	السكري						$sukkari #trade #civilian @food %sugar #ancestoral
+الخفاف	الخفاف						$khaffaf #trade #civilian @textile @craft @clothes @shoes
+الحريري	الحريري						$hariri #trade #civilian @textile @silk
+الحذاء	الحذاء						$hadhdha' #trade #civilian @textile @craft @clothes @shoes
+الاشراف	الاشراف						$ashraf #plural #status #religious @prophet
+النساءي	النساءي					نسا	$nasa'i #toponymic
+المحتسب	المحتسب						$muhtasib #administrative #position
+العتكي	العتكي						$`ataki #tribal
+الزينبي	الزينبي						$zaynabi #ancestoral
+الزبيري	الزبيري						$zubayri #ancestoral
+الراوي	الراوي						$rawi #religious #status @hadith
+الجويني	الجويني					جوين	$juwayni #toponymic
+المداءني	المداءني					المداءن	$mada'ini #toponymic
+المخرمي	المخرمي						$makhrami #tribal
+السرقسطي	السرقسطي					سرقسطة	$saraqusti #toponymic
+السدوسي	السدوسي						$sadusi #tribal
+السجستاني	السجستاني					سجستان	$sijistani #toponymic
+السبتي	السبتي					سبتة	$sabti #toponymic
+البصير	البصير						$basir #noID #qualifier
+الهذلي	الهذلي						$hudhali #tribal
+القصار	القصار						$qassar #trade #civilian @construction %plaster @textile %bleacher %shatz #review
+السامري	السامري					سامراء	$samarri #toponymic
+الزهاد	الزهاد						$zuhhad #plural #religious #status @piety
+الخلفاء	الخلفاء						$khulafa' #plural #review
+الحساب	الحساب						$hsab #noID
+الثقات	الثقات						$thiqat #plural #status #religious @hadith @positive
+الاخو	الاخو						$akhu #family
+العسكري	العسكري					عسكر	$`askari #review %refToMilCamp
+الصقلي	الصقلي					صقلية	$siqilli #toponymic %SaqalliAnsab
+السهمي	السهمي						$sahmi #tribal
+الذهلي	الذهلي						$dhuhali #tribal
+الاعور	الاعور						$a`war #physical @eyes
+الوالي	الوالي						$wali #noID %mightBeWaIla
+الفضلاء	الفضلاء						$fudala' #plural
+الحكيم	الحكيم						$hakim #noID #qualifier #review
+النابلسي	النابلسي					نابلس	$nabulusi #toponymic
+السلفي	السلفي						$salafi/sulfi #religious #review #tribal #status #multi
+الحمامي	الحمامي						$hammami #trade #civilian @service %bathhouses @merchant @animal %doves
+البغوي	البغوي					خراسان	$baghawi #toponymic
+الاهوازي	الاهوازي					الأهواز	$ahwazi #toponymic
+النجار	النجار						$najjar #trade #civilian @craft @wood
+الغزال	الغزال						$ghazzal #trade #civilian @textile %spinnerOfYarn
+الحنابلة	الحنابلة						$hanabila #plural #religious #knowledge #faction @law
+الجعفي	الجعفي						$ju`fi #tribal
+الاصم	الاصم						$asamm #physical @ears %deaf
+الازرق	الازرق						$azraq #physical @skin #review
+الهلالي	الهلالي						$hilali #tribal
+المصريين	المصريين					مصر	$misriyyin #plural #toponymic
+الكلاعي	الكلاعي						$kala`i #tribal
+الكتاني	الكتاني						$kattani #trade #civilian @textile %weaver %spinner %linen
+الصوري	الصوري					صور	$suri #toponymic
+الداراني	الداراني					داريا	$darani #toponymic
+الخشاب	الخشاب						$khashshab #trade #civilian @wood @extract
+الخزاز	الخزاز						$khazzaz #trade #civilian @textile %silk
+الميهني	الميهني					ميهنة	$mayhani #toponymic
+المهلبي	المهلبي						$muhallabi #ancestoral
+المعري	المعري					المعرة	$ma`arri #toponymic
+المستملي	المستملي						$mustamli #religious #position @madrasa
+المءيد	المءيد						$mu'ayyid #noID
+القضاعي	القضاعي						$quda`i #tribal #ancestoral
+العثماني	العثماني						$`uthmani #ancestoral @caliphal
+العبيدي	العبيدي						$`ubaydi #noID
+الدباس	الدباس						$dabbas #trade #civilian @food %syrup
+اليمامي	اليمامي					اليمامة	$yamami #toponymic
+القطيعي	القطيعي					بغداد	$qati`i #toponymic
+العبسي	العبسي						$`absi #tribal
+الدمياطي	الدمياطي					دمياط	$dimiati #toponymic
+الحكي	الحكي						$hki #noID #verb
+الترمذي	الترمذي					ترمذ	$tirmidhi #toponymic
+الابهري	الابهري					ابهر	$abhari #toponymic
+الناسخ	الناسخ						$nasikh #trade #civilian @craft @books %bookCopy
+المتفنن	المتفنن						$mutafannin #noID #qualifier
+الفرنج	الفرنج						$firanj #plural
+الفراء	الفراء						$farra' #trade #civilian @textile @leather %fur
+الطرسوسي	الطرسوسي					طرسوس	$tarsusi #toponymic
+الشاشي	الشاشي					ما وراء النهر	$shashi #toponymic
+السلجوقي	السلجوقي						$saljuqi #tribal @nonarab
+الذرية	الذرية						$dhria #noID
+الذري	الذري						$dhri #noID
+الجندي	الجندي						$jundi #unclear #status #military
+التجار	التجار						$tijara #indirect #trade #civilian @merchant
+النصيبي	النصيبي					نصيبين	$nasibi #toponymic
+المجاور	المجاور						$mujawir #religious #status @piety
+الكتبي	الكتبي						$kutubi #trade #civilian @books %bookseller
+الفحول	الفحول						$fuhul #noID #qualifier
+الزيات	الزيات						$zayyat #trade #civilian @food %oilmaker
+الدوري	الدوري					بغداد	$duri #toponymic #unclear #trade #civilian #topMulti %quarterBaghdad %quarterNishapur
+الخرقي	الخرقي						$khiraqi #trade #civilian @textile @clothes %piecesOfFabric %possibTop
+الادمي	الادمي						$adami #ancestoral #trade #civilian @textile @leather
+النصري	النصري					بغداد	$nasri #toponymic #tribal %quarterBaghdad
+النساء	النساء						$nisa' #noID
+المنصوري	المنصوري						$mansuri #ancestoral #review
+الكهل	الكهل						$kahl #unclear
+الغلام	الغلام						$ghulam #status #military
+الغازي	الغازي						$ghazi #status #military
+الديلمي	الديلمي					الديلم	$daylami #toponymic
+الجياني	الجياني					جيان	$jayyani #toponymic
+الاوسي	الاوسي						$awsi #tribal @arab
+الابناء	الابناء						$abna' #family
+الناصري	الناصري					الناصرية	$nasiri #review
+المجلس	المجلس						$majlis #indirect #review
+المالكية	المالكية						$malkiyya #noID %double
+الكساءي	الكساءي						$kisa'i #trade #civilian @textile @clothes %garment
+القانت	القانت						$qanit #noID #qualifier %obedient
+العنسي	العنسي						$`ansi #tribal
+الشهرزوري	الشهرزوري					شهرزور	$shahrazuri #toponymic
+السكوني	السكوني						$sakuni #tribal
+الخبير	الخبير						$khabir #noID
+الحجازي	الحجازي					الحجاز	$hijazi #toponymic
+الحبال	الحبال						$habbal #trade #civilian @craft @textile %ropemaker
+الاملي	الاملي					آمل	$amuli #toponymic #topMulti
+الاصولي	الاصولي						$usuli #status #religious #knowledge
+الاسود	الاسود						$aswad #physical @skin #review %african %slaveServant
+الاسكاف	الاسكاف						$askaf #trade #civilian @clothes %shoes
+الابيض	الابيض						$abyad #physical @skin #review %slaveServant
+النميري	النميري						$numayri #tribal
+الموالي	الموالي						$mawali #plural #tribal @client @nonarab
+المسعودي	المسعودي					بغداد	$mas`udi #ancestoral #review %mayReferToBaghdad
+الكرماني	الكرماني					كرمان	$kirmani #toponymic
+القلانسي	القلانسي						$qalanisi #trade #civilian @textile @clothes %hats
+الفارقي	الفارقي					ميافارقين	$fariqi #toponymic
+الصواف	الصواف						$sawwaf #trade #civilian @textile @wool
+الصالحية	الصالحية						$salihiyya #noID %refToQuarterOfDimashq
+الرهاوي	الرهاوي					الجزيرة	$rahawi #toponymic #tribal
+الرافضي	الرافضي						$rafidi #religious #faction @shiCa
+الذكي	الذكي						$dhakki #noID #qualifier
+الحفاظ	الحفاظ						$huffaz #plural #religious #knowledge @hadith
+الثعلبي	الثعلبي						$tha`labi #tribal
+اليماني	اليماني					اليمن	$yamani #toponymic
+اليشكري	اليشكري						$yashkuri #tribal
+المحاربي	المحاربي						$muharibi #tribal
+المءرخ	المءرخ						$mu'rrikh #knowledge #civilian #religious @history
+الكرابيسي	الكرابيسي						$karabisi #trade #civilian @textile %fabrics
+الصنهاجي	الصنهاجي						$sanhaji #tribal
+الاخوة	الاخوة						$ikhwa #family
+الاباه	الاباه						$abahu #family
+اليمني	اليمني					اليمن	$yamani #toponymic
+الوابوه	الوابوه						$waabuhu #noID %repetition
+المعلم	المعلم						$mu`allim #religious #position @madrasa %elementarySchoolTeacher
+المعتزلة	المعتزلة						$mu`tazila #plural #religious #faction @theology
+المتقن	المتقن						$mutqin #noID #qualifier
+الكرجي	الكرجي					الكرج	$karaji #toponymic
+القوي	القوي						$qawi #noID
+القصري	القصري						$qasri #unclear %toponTooManyRef
+الظريف	الظريف						$zarif #noID #qualifier %witty
+الشهيد	الشهيد						$shahid #status #religious %martyr
+السقطي	السقطي						$saqati #trade #civilian @merchant %utensils
+الاشجعي	الاشجعي						$ashja`i #tribal
+الابوها	الابوها						$abuha #family
+المطوعي	المطوعي						$mutawwa`i #status #military #review
+المطرز	المطرز						$mutarriz #trade #civilian @textile @clothes %embroiderer
+المشاهير	المشاهير						$mashahir #plural
+المستنصري	المستنصري						$mustansiri #indirect #position #religious @madrasa %refMadrasa
+القاص	القاص						$qass #religious #knowledge #position @preaching
+القاريء	القاريء						$qari' #religious #knowledge @quran
+الطواشي	الطواشي						$tawashi #status #military %rank @eunich %ayyubidCavalryman
+السفار	السفار						$saffar #unclear
+الزيدي	الزيدي						$zaydi #religious #faction #ancestoral #review @shiCa
+الخطاب	الخطاب						$khitaba #indirect #religious #position @preaching
+الحلي	الحلي					الحلة	$hilli #toponymic
+الحجاج	الحجاج						$hajjaj #religious #status @piety
+التكريتي	التكريتي					تكريت	$tikriti #toponymic
+التركماني	التركماني					ما وراء النهر	$turkumani #ethnic #toponymic
+البوشنجي	البوشنجي					بوشنج	$bushanji #toponymic
+البسطامي	البسطامي					بسطام	$bistami #toponymic
+الاحول	الاحول						$ahwal #physical @eyes
+النهرواني	النهرواني					بغداد	$nahrawani #toponymic
+النصراني	النصراني						$nasrani #religious #faction @christian @nonmuslim
+النسوي	النسوي					نسا	$nasawi #toponymic
+المنقري	المنقري						$minqari #tribal
+المرواني	المرواني						$marwani #ancestoral @caliphal
+العوفي	العوفي						$`awfi #ancestoral #tribal #review
+العلاف	العلاف						$`allaf #trade #civilian @animal %animalForage
+الطلبة	الطلبة						$talaba #noID
+الشبلي	الشبلي					الشبلية	$shibli #toponymic
+الزعفراني	الزعفراني					بغداد	$za`farani #toponymic #topMulti
+الزعفراني	الزعفراني					همذان	$za`farani #toponymic #topMulti
+الرءوس	الرءوس						$ru'us #noID
+الدولته	الدولته						$dawlatuhu #noID
+الثوري	الثوري						$thawri #tribal
+التابعين	التابعين						$tabi`ina #plural #religious #status @prophet
+البيهقي	البيهقي					نيسابور	$bayhaqi #toponymic
+الاسماعيلي	الاسماعيلي						$isma`ili #ancestoral #religious #faction @shiCa #review
+الاداب	الاداب						$adab #plural
+الوزان	الوزان						$wazzan #trade #civilian @service %weighter
+المجاهد	المجاهد						$mujahid #status #religious
+القارء	القارء						$qari' #religious #knowledge @quran
+العنزي	العنزي						$`anzi #tribal
+العدالة	العدالة						$`adala #noID
+الضبعي	الضبعي					البصرة	$duba`i #tribal #toponymic %quarterBasra
+الزرقي	الزرقي					مرو	$zarqi/zuraqi #tribal #toponymic %villageMarw
+الزاوية	الزاوية						$zawiya #indirect #religious #position @piety @sufism
+الذهبي	الذهبي						$dhahabi #trade #civilian @metal @jewelry
+الدهان	الدهان						$dahhan #trade #civilian @food %oil %paint @craft #review
+الدامغاني	الدامغاني					دامغان	$damghani #toponymic
+الجاور	الجاور						$jawara #verb #religious #status @piety
+البلدي	البلدي						$baladi #noID %multiRefs
+الادباء	الادباء						$udaba' #plural #review
+الاخاه	الاخاه						$akhahu #family
+اليحصبي	اليحصبي						$yahsubi #tribal
+الواخو	الواخو						$uakhu #noID %duplicate
+النقاش	النقاش						$naqqash #trade #civilian @metal
+النرسي	النرسي					الكوفة	$narsi #toponymic %riverKufa
+المقيم	المقيم						$muqim #religious #position %schatz #review
+المذكر	المذكر						$mudhakkir #religious #knowledge @preaching
+اللءلءي	اللءلءي						$lu'lu'i #trade #civilian @jewelry
+الغزالي	الغزالي						$ghazzali #trade #civilian @textile %spinner #review
+الضعيف	الضعيف						$da`if #status #religious @hadith @negative
+الصالحين	الصالحين						$salihin #plural #religious #status @piety
+الصادق	الصادق						$sadiq #noID #qualifier
+الصابوني	الصابوني						$sabuni #trade #civilian @craft @chem
+الشارعي	الشارعي						$shari`i #noID %mightBeToponEgypt
+السجزي	السجزي					سجستان	$sijzi #toponymic
+الرحبي	الرحبي					الجزيرة	$rahbi #toponymic #tribal #topMulti
+الرافضة	الرافضة						$rafida #plural #faction #religious @shiCa
+الراءق	الراءق						$ra'iq #noID #qualifier
+البلوي	البلوي						$balawi #tribal
+البربري	البربري					المغرب	$barbari #tribal #ethnic #toponymic @nonarab
+الاولياء	الاولياء						$awliya' #plural
+الامدي	الامدي					آمد	$amidi #toponymic
+الاطباء	الاطباء						$atibba' #plural #knowledge #position #trade #civilian @medicine
+الاشقر	الاشقر						$ashqar #physical @color
+الارموي	الارموي					أذربيجان	$armawi #toponymic
+الابيوردي	الابيوردي					ابيورد	$abiwardi #toponymic
+النهاوندي	النهاوندي					نهاوند	$nihawandi #toponymic
+المقري	المقري						$maqarri #toponym #religious #knowledge @quran #topMulti %maghribMaqarri %Sham
+الفضاءل	الفضاءل						$fada'il #secondary
+الفرغاني	الفرغاني					فرغانة	$farghani #toponymic
+الشرابي	الشرابي						$sharabi #trade #civilian @food %drinks
+السهروردي	السهروردي					سهرورد	$suhrawardi #toponymic #religious @sufism #faction
+الزنجاني	الزنجاني					زنجان	$zanjani #toponymic
+الخراز	الخراز						$kharraz #trade #civilian @leather @craft @textile
+الحيري	الحيري					الحيرة	$hiri #toponymic #topMulti %Kufa %Nishapur
+الحمام	الحمام						$hammam #trade #civilian @service %bathhouse
+الحليف	الحليف						$halif #tribal #review
+الحاذق	الحاذق						$hadhiq #noID #qualifier
+الجوال	الجوال						$jawwal #status #religious @hadith %rahhala
+الجرمي	الجرمي						$jarmi #tribal
+البني	البني					الأندلس	$bni #noID %trade %civilian %food %dipMaker %topoProb %topMulti %fortInAndalus
+البستي	البستي					بست	$basti/busti #physical @height #topMulti #toponymic
+البرمكي	البرمكي						$barmaki #ancestoral @clan #review
+النحاس	النحاس						$nahhas #trade #civilian @metal @copper
+المنبجي	المنبجي					منبج	$manbiji #toponymic
+المروروذي	المروروذي					مروالروذ	$marwarudhi #toponymic
+المدبر	المدبر						$mudabbir #administrative #position %mudabbirMamlaka %MamlukOfficialPetry
+الفامي	الفامي					حمص	$fami #trade #civilian @food %groceries %driedFruits #toponymic #topMulti
+العبادي	العبادي						$`ibadi #ancestoral #review
+الظفري	الظفري					بغداد	$zafari #toponymic #review %quarterBaghdad
+الشديد	الشديد						$shadid #secondary
+السوسي	السوسي					السوس	$susi #toponymic #topMulti %Ahwaz %Ifriqiyya
+الرزاز	الرزاز						$razzaz #trade #civilian @food @cereals %rice
+التنيسي	التنيسي					تنيس	$tinnisi #toponymic
+البواب	البواب						$bawwab #trade #civilian @service
+البهراني	البهراني						$bahrani #tribal
+البندنيجي	البندنيجي					بغداد	$bandaniji #toponymic %baldaBaghdad
+الانصار	الانصار						$ansar #plural #tribal @prophet @islamic
+الاعمي	الاعمي						$a`ma #physical @eyes 
+الابطال	الابطال						$abtal #plural
+الناقد	الناقد						$naqid #religious #knowledge %hadith #civilian #trade @finance %pickOutGoodMoneyCohen
+المراتبي	المراتبي						$muratibi #noID
+الماموني	الماموني						$ma'muni #ancestoral @caliphal
+القواد	القواد						$qawwad #review %trade
+العامل	العامل						$`amil #administrative #position #review
+الطبراني	الطبراني					طبرية	$tabarani #toponymic #topMulti %Urdunn %Tus
+الشرقي	الشرقي					الشرقية	$sharqi #review #topMulti %quarterBaghdad %quarterNishapur
+الروايات	الروايات						$riwayat #indirect #review
+الداري	الداري					هراة	$dari #ancestoral #unclear #toponymic
+الدارمي	الدارمي						$darimi #tribal
+الجعفري	الجعفري						$ja`fari #ancestoral #religious #status #faction %JaCfarSadiq @shiCa
+الاودي	الاودي						$awdi #ancestoral
+الاطرابلسي	الاطرابلسي					طرابلس	$itrabulusi #topMulti #toponymic %Itrabulus %Sham
+الاخي	الاخي						$akhi #family
+الهكاري	الهكاري					الهكارية	$hakkari #toponymic
+النساج	النساج						$nassaj #trade #civilian @textile %weaver
+الموسوي	الموسوي						$musawi #ancestoral #religious #status #faction @shiCa %shiCiImamMusa
+الماهر	الماهر						$mahir #noID #qualifier
+القصير	القصير						$qasir #physical @body 
+الفسوي	الفسوي					فسا	$fasawi #toponymic
+الفتي	الفتي						$fti #noID
+الفاءق	الفاءق						$fa'iq #noID #qualifier
+العميد	العميد						$`amid #review
+العذري	العذري						$`udhri #tribal
+الطاءفي	الطاءفي					الطائف	$ta'ifi #topMulti #toponymic #review
+السقلاطوني	السقلاطوني						$saqlatuni #trade #civilian @textile %silk
+السبي	السبي					سبتة	$sabbi #toponymic #review %Andalus %Yemen
+السالم	السالم						$salim #review
+الزوزني	الزوزني					نيسابور	$zuzani #toponymic %kuraNishapur
+الخليلي	الخليلي						$khalili #ancestoral
+الخشني	الخشني						$khushani #tribal #ancestoral
+الحاسب	الحاسب						$hasib #trade #knowledge #civilian %arithmetics
+الجريري	الجريري						$jariri #ancestoral
+الجاري	الجاري					المدينة	$jari #noID %jariya %toponymic %review
+التونسي	التونسي					تونس	$tunisi #toponymic
+التميم	التميم						$tamim #indirect
+البجاني	البجاني					بجانة	$bijani #toponymic
+الالبيري	الالبيري					البيرة	$ilbiri #toponymic
+الوليد	الوليد						$walid #noID
+الهوي	الهوي						$hui #noID
+النوري	النوري					سمرقند	$nuri #noID %mightBeTopon %baldaSamarqand
+النسابة	النسابة						$nsaba #noID #indirect
+النبوي	النبوي						$nbui #unclear @prophet
+المنذري	المنذري						$mundhiri #ancestoral
+المفلق	المفلق						$mflq #noID
+الكعبي	الكعبي						$ka`bi #tribal #ancestoral #review
+الكتامي	الكتامي						$kutami #tribal
+القاءد	القاءد						$qa'id #position #military #review
+الظالم	الظالم						$zalim #review
+الطالقاني	الطالقاني					الطالقان	$taliqani #toponymic #topMulti
+الشهود	الشهود						$shuhud #plural #religious #position @law
+الشروط	الشروط						$shurut #secondary
+الشحامي	الشحامي						$shahhami #trade #civilian @food %fat
+الرصافي	الرصافي					بغداد	$rusafi #review #topMulti
+الخاتون	الخاتون						$khatun #noID
+الحنظلي	الحنظلي						$hanzali #tribal
+الحماني	الحماني						$himmani #tribal
+الجارية	الجارية						$jariya #noID %slavegirl
+التستري	التستري					تستر	$tustari #toponymic
+الاصغر	الاصغر						$asghar #secondary
+الاصبحي	الاصبحي						$asbahi #tribal #ancestoral
+اليونيني	اليونيني					الروم	$yunini #ethnic #toponymic
+اليهودي	اليهودي						$yahudi #faction #religious @nonmuslim @jews
+النجاري	النجاري					الكوفة	$najjari #tribal #toponymic #religious #faction @theology
+المستنصرية	المستنصرية						$mustansiriyya #indirect
+القصاب	القصاب						$qassab #trade #civilian @food %meat
+الفلسطيني	الفلسطيني					فلسطين	$filastini #toponymic
+الغفاري	الغفاري						$ghifari #tribal
+العمي	العمي						$`ammi #tribal #review
+الطلحي	الطلحي						$talhi #ancestoral
+الطاهري	الطاهري					بغداد	$tahiri #toponymic #topMulti #ancestoral
+الصحابي	الصحابي						$sahabi #status #religious @prophet
+الذكاء	الذكاء						$dhka' #noID
+الحصار	الحصار						$hsar #noID
+الحجاب	الحجاب						$hjab #status #administrative #military #position #plural
+الحاصر	الحاصر						$hasara #noID #verb
+الجلال	الجلال						$jlal #noID
+التلمساني	التلمساني					تلمسان	$tilimsani #toponymic
+التبريزي	التبريزي					تبريز	$tabrizi #toponymic
+البكاء	البكاء						$bakka' #status #religious @piety
+الباطني	الباطني						$batini #religious #faction @theology @shiCa
+الايادي	الايادي						$iyadi #tribal
+الاشناني	الاشناني					بغداد	$ashnani #trade #civilian @chem @medicine %herbs #toponymic
+النوقاني	النوقاني					طوس	$nuqani #toponymic
+النديم	النديم						$nadim #status #position #review #civilian
+النجاد	النجاد						$najjad #trade #civilian @textile @craft %upholsterer
+المهري	المهري						$mahri #tribal
+المماليك	المماليك						$mamalik #plural #review
+المراغي	المراغي					مراغة	$maraghi #toponymic
+الغنوي	الغنوي						$ghanwi #tribal #review
+العزيزي	العزيزي						$`azizi #unclear
+العابدين	العابدين						$`abidin #plural #religious #status #piety
+الضعفاء	الضعفاء						$du`afa' #plural #religious #status @hadith %negative
+الصحابة	الصحابة						$sahaba #plural #religious #status @prophet
+الصبر	الصبر						$sbr #noID
+الشريشي	الشريشي					شذونة	$sharishi #toponymic
+السري	السري					سر	$sri #noID
+الزكي	الزكي						$zakki #noID #qualifier
+الدارقزي	الدارقزي					بغداد	$darqazi #toponymic %quarterBaghdad #review %notInAnsab
+الخالدي	الخالدي						$khalidi #ancestoral #review #topMulti %quarters
+الخازن	الخازن						$khazin #trade #civilian #review
+الحلواني	الحلواني					العراق	$hulwani #toponymic
+الحفيد	الحفيد						$hafid #family
+الحرشي	الحرشي						$harashi #tribal
+الجند	الجند						$jund #indirect #status #military
+الجلاب	الجلاب						$jallab #trade #civilian @animal @slaves @merchant %beastTrader %slaveTrader
+الجاهلي	الجاهلي						$jahili #tribal @islamic @arab #review
+البيروتي	البيروتي					بيروت	$bayruti #toponymic
+الباقلاني	الباقلاني						$baqillani #trade #civilian @food %greengrocer %fruits %berries
+النوفلي	النوفلي						$nawfli #tribal
+النجم	النجم						$njm #noID
+الممالك	الممالك						$mamalk #plural
+المضري	المضري						$mudari #tribal @arab
+المحاملي	المحاملي						$mahamili #trade #civilian @craft %camelPalankquins
+الماليني	الماليني					خراسان	$malini #toponymic
+الكذاب	الكذاب						$kadhdhab #status #religious @hadith @negative
+الكاغدي	الكاغدي						$kaghidi #trade #civilian @craft @paper @books
+القنطري	القنطري					بغداد	$qantari #toponymic #topMulti
+الفيلسوف	الفيلسوف						$faylasuf #status #knowledge @philosophy
+العسال	العسال						$`assal #trade #civilian @food %honey
+العتابي	العتابي						$`attabi #trade #civilian @textile @cotton %cottonStuff
+السني	السني						$sunni #noID %faction %review %topMulti %kuraBaghdad
+السامي	السامي						$sami #ancestoral #tribal #review
+الخزان	الخزان						$khazzan #trade #civilian #review
+الحجري	الحجري						$hajri/hujari #tribal #trade #civilian @construction @craft %stone #review #topMulti
+الحجبي	الحجبي						$hajabi #status #tribal #religious %kaabaCover #review
+الجصاص	الجصاص						$jassas #trade #civilian @construction %gypsum %plaster
+التلامذة	التلامذة						$talamidha #plural
+الاسكافي	الاسكافي					بغداد	$iskafi #religious #faction @theology %muCtazila #toponymic #review
+اليزدي	اليزدي					يزد	$yazdi #toponymic
+اليربوعي	اليربوعي						$yarbu`i #tribal
+الوزراء	الوزراء						$wuzara' #plural #status #administrative #position
+النوبي	النوبي					النوبة	$nubi #toponymic #ethnic
+النهدي	النهدي						$nahdi #tribal
+النمري	النمري						$namri #ancestoral #tribal #review
+النحاة	النحاة						$nuhat #plural #knowledge #civilian @lang
+النجمي	النجمي						$najmi #noID
+الميورقي	الميورقي					ميورقة	$mayurqi #toponymic
+الملازم	الملازم						$mulazim #secondary
+المريي	المريي						$mrii #noID
+المتروكين	المتروكين						$matrukin #plural #religious #status @hadith @negative
+القيمري	القيمري						$qaymri #review #status #military @clan %kurdishFamilyMamluks
+القيسراني	القيسراني					قيسارية	$qaysarani #toponymic
+القلبي	القلبي						$qlbi #noID
+الغربي	الغربي					بغداد	$gharbi #toponymic #topMulti %quarterBaghdad
+العجمي	العجمي					فارس	$`ajami #ethnic @nonarab #toponymic #unclear
+العادلي	العادلي						$`adili #ancestoral
+الطيالسي	الطيالسي						$tayalisi #trade #civilian @textile @clothes %hats %turbans
+الصلاحي	الصلاحي						$slahi #noID
+الصباغ	الصباغ						$sabbagh #trade #civilian @textile @chem @craft %dyingFabrics
+الشجعان	الشجعان						$shaj`an #noID #qualifier
+الشجاعي	الشجاعي						$shuja`i #ancestoral
+السخاوي	السخاوي					سخا	$sakhawi #toponymic
+الرقاشي	الرقاشي						$raqashi #tribal @arab
+الرشيدي	الرشيدي						$rashidi #review #religious #faction @khawarij
+الرسعني	الرسعني					ديار بكر	$ras`ani #toponymic
+الدهقان	الدهقان						$dihqan #status #civilian %landowner #review
+الدباغ	الدباغ						$dabbagh #trade #civilian @textile @leather %leatherTanning
+الختلي	الختلي					سمرقند	$khutali #toponymic #review
+الحوراني	الحوراني					حوران	$hawrani #toponymic
+الحناط	الحناط						$hannat #trade #civilian @food @cereals %wheat
+البندار	البندار						$bundar #trade #civilian @merchant #review %reseller
+البغداديين	البغداديين					بغداد	$baghdadiyyin #plural #toponymic
+البروجردي	البروجردي					بروجرد	$burujirdi #toponymic
+البحيري	البحيري						$bahiri #ancestoral #review
+الباجي	الباجي					باجة	$baji #toponymic
+الاميني	الاميني						$amini #noID
+الملاح	الملاح						$mallah #trade #civilian @food %sailor %saltseller #review
+المقدمي	المقدمي						$muqaddami #ancestoral
+المراكشي	المراكشي					مراكش	$marakushi #toponymic
+المخزوم	المخزوم						$makhzum #indirect #tribal
+الكهول	الكهول						$kuhula #noID
+الكافي	الكافي						$kafi #noID
+القواس	القواس						$qawwas #trade #civilian @craft #military %weapons %bows #ancestoral
+القراب	القراب						$qarrab #trade #civilian @craft %glass #review
+القدماء	القدماء						$qudama' #plural
+القتال	القتال						$qattal #noID
+الفهمي	الفهمي					قيس	$fhmi #tribal @arab
+الغزنوي	الغزنوي					غزنة	$ghaznawi #toponymic
+العامة	العامة						$`amma #secondary
+الصلحاء	الصلحاء						$sulaha' #plural #religious #status @piety
+الصغار	الصغار						$sighar #plural
+الصحراوي	الصحراوي					افريقية	$sahrawi #toponymic
+السنجاري	السنجاري					سنجار	$sanjari #toponymic
+السكسكي	السكسكي					الأزد	$saksaki #tribal @arab %tribeAZD
+الزجاج	الزجاج						$zajjaj #trade #civilian @craft @glass
+الدواوين	الدواوين						$dawawin #indirect #administrative #position
+الخراج	الخراج						$khraj #secondary
+الحماد	الحماد						$hmad #secondary
+الحازم	الحازم						$hazm #secondary
+الجوزي	الجوزي						$jawzi #noID %trade %civilian %food %nuts
+الجماعيلي	الجماعيلي					جماعيل	$jama`ili #toponymic
+الجرجراءي	الجرجراءي					جرجرايا	$jarjara'i #toponymic
+الاسفراييني	الاسفراييني					إسفرايين	$isfra'ini #toponymic
+الارمني	الارمني					ارمينية	$armini #ethnic #toponymic
+الاحمسي	الاحمسي						$ahmasi #tribal
+الاحمر	الاحمر						$ahmar #physical @skin 
+الواعظة	الواعظة						$wa`iza #secondary
+الهادي	الهادي						$hadi #noID
+النيلي	النيلي					الكوفة	$nili #toponymic %balidaKufa
+النصاري	النصاري						$nsari #noID
+المنجم	المنجم						$munajjim #trade #civilian #review
+المغازلي	المغازلي						$maghazli #trade #civilian @textile @craft %weavingSpindle
+المذحجي	المذحجي						$madhhiji #tribal
+اللبان	اللبان						$labban #trade #civilian @food %drinks %milk
+الكازروني	الكازروني					فارس	$kaziruni #toponymic
+القمي	القمي					قم	$qummi #toponymic
+القفال	القفال						$qaffal #trade #civilian @metal @craft %locksmith
+القتباني	القتباني					اليمن	$qitbani #tribal #toponymic
+العرضي	العرضي					دمشق	$`urdi #toponymic #review %nahiyaDimashq
+الطيبي	الطيبي					خوزستان	$taybi #ancestoral #toponymic #review
+الضراب	الضراب						$darrab #trade #civilian @finance @metal #review %mintingMoney
+السنجي	السنجي					مرو	$sinji #toponymic
+الراسبي	الراسبي					البصرة	$rasibi #tribal #toponymic %quarterBasra
+الدعاء	الدعاء						$d`a' #noID
+الرءاسي	الرءاسي						$r'asi #noID
+الخشوعي	الخشوعي						$khshu`i #noID
+الحمال	الحمال						$hammal #trade #civilian @service #review
+الحمار	الحمار						$himar #noID %laqabMarwanHimarUmayyad %trade %civilian %animal %donkey
+الجرشي	الجرشي						$jurashi/jarshi #tribal @arab
+الجدهم	الجدهم						$jadduhum #family
+البوسنجي	البوسنجي					بوسنج	$busanji #toponymic #review
+الثماني	الثماني						$thmani #noID
+البهي	البهي						$bahi #ancestoral #ideo
+البناني	البناني						$bnani #noID %tribal
+البطليوسي	البطليوسي					بطليوس	$batalyawsi #toponymic
+البرداني	البرداني					بغداد	$baradani #toponymic
+الاوزاعي	الاوزاعي					الشام	$awza`i #toponymic #religious #knowledge #faction @law
+الاشرفي	الاشرفي						$ashrafi #noID %refToMadrasa
+الاسواني	الاسواني					اسوان	$aswani #toponymic
+الاخفش	الاخفش						$akhfash #physical @eyes %weaksighted
+الاجري	الاجري					بغداد	$ajurri #toponymic #trade #civilian @clay @construction %bricks
+الاتابكي	الاتابكي						$atabaki #status #military #status #administrative #review
+الابدال	الابدال						$abdal #plural
+اليعظ	اليعظ						$ya`zu #verb
+الهدي	الهدي						$hdi #noID
+اليزيدي	اليزيدي						$yazidi #ancestoral
+الهراسي	الهراسي						$hrasi #noID
+النعالي	النعالي						$na``ali #trade #civilian @clothes @shoes
+الناجي	الناجي						$naji #tribal
+الملطي	الملطي					ملطية	$malati #toponymic
+المزي	المزي					المزة	$mizzi #toponymic
+المحلي	المحلي					مصر	$mahalli #topMulti #toponymic #review
+المتنبي	المتنبي						$mutanabbi #secondary %refToMutanabbi
+الماسرجسي	الماسرجسي						$masarjisi #ancestoral
+اللحية	اللحية						$lhia #noID
+الكهولة	الكهولة						$kuhula #noID
+القلعي	القلعي						$ql`i #noID %tooManyRefs
+القبلي	القبلي						$qbli #noID
+الغطفاني	الغطفاني						$ghatafani #tribal @arab
+العتبي	العتبي						$`atbi #noID %ancestoral
+الطرطوشي	الطرطوشي					طرطوشة	$turtushi #toponymic
+الضعف	الضعف						$du`f #indirect #status #religious @hadith @negative
+الصرام	الصرام						$sarram #trade #civilian @clothes @shoes
+الصالحاني	الصالحاني					أصبهان	$salihani #toponymic %quarterIsbahan
+الشعيري	الشعيري						$sha`iri #trade #civilian @food @cereals
+الشعبي	الشعبي						$sha`bi #tribal @arab
+السيبي	السيبي					الكوفة	$sibi #toponymic %kuraKufa
+الساعدي	الساعدي						$sa`di #noID
+الزرزاري	الزرزاري					الجزيرة	$zrzari #tribal @nonarab #ethnic %kurdishTribe #toponymic
+الزاهدة	الزاهدة						$zahida #noID %duplicate
+الدكان	الدكان						$dukkan #indirect #trade #civilian @merchant
+الداوودي	الداوودي						$dawudi #ancestoral #religious #knowledge #faction @law
+الخلاطي	الخلاطي						$khlati #noID
+الخثعمي	الخثعمي						$khath`ami #tribal @arab
+الحلاوي	الحلاوي					الحلة	$halawi #toponymic #trade #civilian @food
+الحزامي	الحزامي						$hizami #ancestoral
+الحجار	الحجار						$hajjar #noID %toponymic %Andalus %trade %civilian %construction %shatz
+الجالس	الجالس						$jalis #noID
+البلغاء	البلغاء						$bulagha' #plural #noID
+البرزالي	البرزالي						$birzali #tribal #ethnic @nonarab %berber
+البالسي	البالسي					بالس	$balisi #toponymic
+البابصري	البابصري						$babasri #noID %someQuarter
+الاقوش	الاقوش						$aqush #noID
+الاسعردي	الاسعردي						$as`rdi #noID
+الاحدب	الاحدب						$ahdab #physical @body %humpback
+اليسار	اليسار						$isar #noID
+اليامي	اليامي						$yami #tribal @arab
+الوادعي	الوادعي						$wadi`i #tribal @arab
+الواخوه	الواخوه						$uakhuh #noID %duplicate
+النقباء	النقباء						$nuqaba' #plural #status #administrative #position
+النخاس	النخاس						$nakhkhas #trade #civilian @animal @slaves %slaveTrader %animalTrader
+المهدوي	المهدوي					القيروان	$mahdawi #toponymic %Mahdiyya
+الكلاس	الكلاس						$kallas #trade #civilian @construction %plaster
+المروذي	المروذي					مرو	$marwadhi #toponymic
+المارديني	المارديني					ماردين	$mardini #toponymic
+الماراني	الماراني						$marani #tribal @nonarab %kurdish #review
+الكفرطابي	الكفرطابي					كفرطاب	$kafartabi #toponymic
+الكشي	الكشي					جرجان	$kashshi #toponymic %closetoJurjan
+الكشاني	الكشاني					سمرقند	$kashani #toponymic %nahiyaSamarqand
+الفلاسفة	الفلاسفة						$falasifa #plural #civilian #knowledge @philosophy
+الفراوي	الفراوي					خوارزم	$farawi #toponymic %bordersKhwarizm
+الغوري	الغوري					هراة	$ghuri #toponymic %closeHarat
+الغزي	الغزي					غزة	$ghazzi #toponymic
+العاملي	العاملي						$`amili #tribal #review
+العاقولي	العاقولي					بغداد	$`aquli #toponymic %balidaBaghdad
+الطرابلسي	الطرابلسي					طرابلس	$tarablsi #toponymic #topMulti %Tarabulus %Sham
+الشعراني	الشعراني						$sha`rani #noID %occupMaybe
+الشاغوري	الشاغوري						$shaghuri #noID %noMentionSamCani
+السمناني	السمناني					قومس	$simnani #toponymic %baladQumis
+السلولي	السلولي					الكوفة	$saluli #tribal #toponymic
+السلف	السلف						$slf #noID
+الزوجه	الزوجه						$zawjuhu #family
+الرفض	الرفض						$rafd #noID %indirect %religious %faction %shiCa
+الرفاعي	الرفاعي						$rifa`i #ancestoral #religious @sufism #faction
+الخبيث	الخبيث						$khabith #noID #qualifier
+الحمي	الحمي						$hmi #ancestoral
+الجيشه	الجيشه						$jayshuhu #indirect #status #military
+الجلد	الجلد						$jld #noID
+الجري	الجري						$jurri #noID %tribal
+التوزي	التوزي					فارس	$tawwazi #trade #civilian @textile %tawwazTextiles #toponymic
+التفليسي	التفليسي					تفليس	$tiflisi #toponymic
+البيكندي	البيكندي					بخارى	$baykandi #toponymic %nearBukhara
+البنجديهي	البنجديهي					مرو	$banjdihi #toponymic %villageMarw
+البسري	البسري					حوران	$busri #ancestoral #toponymic %CamalHawran #review
+الامامي	الامامي						$imami #ancestoral #religious #faction @shiCa
+الاطروش	الاطروش						$atrush #physical @ears %deaf
+الاستجي	الاستجي					استجة	$istji #toponymic
+الاذكياء	الاذكياء						$adhkiya' #plural #noID #qualifier
+الاخوته	الاخوته						$ikhwatuhu #family
+الابيها	الابيها						$abiha #family
+الوشقي	الوشقي					وشقة	$washqi #toponymic
+اليتيم	اليتيم						$yatim #family %orphan
+الوابنه	الوابنه						$uabnh #noID %family
+الهواري	الهواري						$hawwari #tribal @nonarab #ethnic @berber
+الهذباني	الهذباني						$hadhbani #tribal @nonarab %kurdish
+الملاءي	الملاءي						$mula'i #trade #civilian @textile @clothes %womenVeil
+المقرءين	المقرءين						$muqri'in #plural #religious #knowledge @quran
+المغني	المغني						$mughanni #trade #civilian #review %singer
+المعبر	المعبر						$mu`abbir #trade #civilian #review %dreamInterpreter
+المطلبي	المطلبي						$muttalibi #ancestoral #tribal @arab
+المرداوي	المرداوي					مصر	$mardawi #toponymic #review %africa
+المخلص	المخلص						$mukhlis #noID #qualifier
+المتروك	المتروك						$matruk #status #religious @hadith @negative
+المءلف	المءلف						$mu'allif #trade #civilian #review @author
+المءذنين	المءذنين						$m'adhdhinin #plural #religious #position @mosque#
+اللبلي	اللبلي					لبلة	$labli #toponymic
+الكشميهني	الكشميهني					مرو	$kushmihani #toponymic %villageMarw
+الكحال	الكحال						$kahhal #trade #civilian @chem @service %eyes
+القهندزي	القهندزي					بخارى	$quhunduzi #toponymic
+القباني	القباني						$qabbani #trade #civilian @craft @service #review %measuringWeights
+الغسال	الغسال						$ghassal #trade #civilian @service %bodyWasher
+العمار	العمار						$`ammar #noID %nothing
+العدني	العدني					نيسابور	$`adni #trade #civilian @textile #toponymic
+العدني	العدني					اليمن	$`adani #toponymic
+العارفين	العارفين						$`arifin #plural #review
+الطراءفي	الطراءفي						$tra'ifi #trade #civilian @wood %woodenNiceThings
+الطحاوي	الطحاوي					الصعيد	$tahawi #toponymic %ardSaCid
+الطالبيين	الطالبيين						$talibiyyin #plural #noID
+الشعري	الشعري						$sh`ri #noID
+الشريك	الشريك						$shrik #noID
+السميساطي	السميساطي					سميساط	$sumaysati #toponymic
+السلماسي	السلماسي					سلماس	$salmasi #toponymic
+السفاح	السفاح						$saffah #noID
+الساماني	الساماني					أصبهان	$samani #toponymic #ancestoral @dynastic
+الساكني	الساكني						$sakni #noID
+الرياحي	الرياحي						$riyahi #tribal #multi #review
+الداعي	الداعي						$da`i #religious #knowledge @preaching
+الخانقاه	الخانقاه						$khanqah #indirect @sufism @waqf
+الخاشع	الخاشع						$khashi` #noID #qualifier
+الحناءي	الحناءي						$hanna'i #trade #civilian @chem %hennaNBherb
+الحذاق	الحذاق						$hadhdhaq #noID #qualifier %skilled
+الحاجي	الحاجي						$hajji #status #religious @piety #review
+الجهضمي	الجهضمي					البصرة	$jahdami #toponymic %quarterBasra
+الجدي	الجدي					جدة	$jaddi #noID #toponymic #ancestoral #family #review
+البهنسي	البهنسي					البهنسا	$bahansi #toponymic
+البري	البري						$bri #noID #trade #civilian @food @cereals %wheat
+البرجي	البرجي						$burji #unclear #topMulti %Mamluks
+الاكراد	الاكراد						$akrad #plural #ethnic %Kurdish
+الاغلبي	الاغلبي						$aghlabi #noID %dynastic
+الاعمش	الاعمش						$a`msh #noID %physical %eyes %blearyEyes
+الاشهلي	الاشهلي						$ashhali #tribal @arab @ansar
+الاستوزره	الاستوزره						$istawzarahu #verb #status #administrative #position
+الاخشيدي	الاخشيدي						$ikhshidi #noID @dynastic
+الاجناد	الاجناد						$ajnad #plural #status #military
+الابني	الابني						$ibnay #family
+الاخري	الاخري					دهستان	$akhri #noID %toponymic %review %qaryaDihistan
+الابلي	الابلي					البصرة	$abli #toponymic %baldaBasra
+اليوسفي	اليوسفي						$yusufi #ancestoral
+الهيتي	الهيتي					الأنبار	$hiti #toponymic
+النعماني	النعماني					بغداد	$nu`mani #toponymic %nearBaghdad
+الناسك	الناسك						$nasik #religious @piety
+المغازي	المغازي						$maghazi #secondary
+المدارس	المدارس						$madaris #plural #religious #position @madrasa
+المختار	المختار						$mukhtar #noID
+المجاشعي	المجاشعي						$mujashi`i #tribal @arab
+المتدين	المتدين						$mutadayyin #noID #qualifier
+اللباد	اللباد						$labbad #trade #civilian @textile %felt
+الكرامي	الكرامي						$karrami #religious #faction #review
+الكبري	الكبري						$kbri #noID
+الكاملي	الكاملي						$kamili #ancestoral
+القوال	القوال						$qual #noID %final
+القاتل	القاتل						$qatl #noID
+الفريابي	الفريابي					بلخ	$faryabi #toponymic %NahiyaBalkh
+الغناء	الغناء						$ghina' #indirect #civilian #trade
+الغلمان	الغلمان						$ghilman #status #military #review
+العزي	العزي						$`zi #noID
+العجاءب	العجاءب						$`ja'b #noID
+العباداني	العباداني					عبادان	$`abbadani #toponymic
+الطولي	الطولي						$tuli #noID
+الطريثيثي	الطريثيثي					نيسابور	$turaythithi #toponymic %nahiyaNishapur
+الصلي	الصلي					اليمن	$sli #noID %FROMslCm #toponymic
+الصوم	الصوم						$sum #indirect #religious #status @piety
+الصوام	الصوام						$sawwam #religious #status @piety
+الصفي	الصفي						$sfi #noID %final
+الصعيدي	الصعيدي					الصعيد	$s`idi #toponymic
+الصبيان	الصبيان						$sbian #noID
+الشيزري	الشيزري					شيزر	$shayzari #toponymic
+الشطوي	الشطوي					مصر	$shatawi #trade #civilian @textile %shatawiTextiles #toponymic #review
+السواق	السواق						$sawwaq #trade #civilian @food %dish @animal %animalDriver #review
+السبيعي	السبيعي					همدان	$sbi`i #tribal @arab
+الزيادي	الزيادي						$ziadi #ancestoral
+الذكواني	الذكواني						$dhakwani #ancestoral
+الذارع	الذارع						$dhari` #trade #civilian @service %measurer
+الديلي	الديلي					الأزد	$dili #tribal @arab
+الخويي	الخويي					خوي	$khuyi #toponymic
+الخوارج	الخوارج						$khawarij #plural #religious #faction @khawarij
+الخليع	الخليع						$khli` #noID #ideo
+الخلقاني	الخلقاني						$khulqani #trade #civilian @textile @clothes %wornoutClothes
+الخريمي	الخريمي						$khuraymi #ancestoral
+الحميدي	الحميدي						$hamidi/humaydi #ancestoral #multi #review
+الحليم	الحليم						$halim #noID #qualifier
+الحكمي	الحكمي						$hakami #tribal @arab
+الحصري	الحصري						$husari #trade #civilian @craft %mats
+الحريص	الحريص						$hris #noID
+الحديثي	الحديثي					حديث	$hdithi #noID
+الحداني	الحداني					البصرة	$haddani/huddani #tribal #toponymic %Tamim %Azd %quarterBasra
+الجابي	الجابي						$jabi #noID
+التيم	التيم						$tim #noID
+التغلب	التغلب						$tghlb #noID
+البياني	البياني					بطليوس	$bayani #review #ancestoral #religious #faction #toponymic
+البياع	البياع						$bayya` #trade #civilian @broker @service %middleman
+البرذعي	البرذعي					اذربيجان	$bardha`i #toponymic #trade #civilian @craft %donkeySaddle %inAdharbayjan
+البدري	البدري						$badri #status #religious @prophet
+البحري	البحري						$bahri #trade #civilian %sailor #review
+البجاي	البجاي						$bjai #noID
+البادي	البادي						$badi #noID
+الالهاني	الالهاني						$alhani #ancestoral
+الاسداباذي	الاسداباذي					اسداباذ	$asadabadhi #toponymic
+الازهري	الازهري						$azhari #ancestoral #review #multi
+الادريسي	الادريسي						$idrisi #ancestoral
+الادبي	الادبي						$adbi #noID
+الاخته	الاخته						$ukhtuh #family
